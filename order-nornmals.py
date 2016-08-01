@@ -10,9 +10,16 @@ from pprint import pprint as pp
 
 def main():
     if len(sys.argv) < 2:
-        print('usage: {} CHARCODE'.format(sys.argv[0]))
+        print('usage: {} CHARCODE [lfm adj]'.format(sys.argv[0]))
         print('e.g. : {} GUL'.format(sys.argv[0]))
+        print('lfm adj: last-frame-meaty adjustment; add to lfm number')
         return 1
+
+    lfmadj = 0
+    try:
+        lfmadj += int(sys.argv[2])
+    except Exception:
+        pass
 
     charfn = os.path.join('.', 'OKI', '{}.txt'.format(sys.argv[1].upper()))
 
@@ -78,7 +85,9 @@ def main():
             r += '-'
         n = move['name']
 
-        print(n.rjust(longest_name), end='')
+        lfm = move['startup'] + move['active'] - 1 + lfmadj
+
+        print('{} [{}]'.format(n.rjust(longest_name), str(lfm).ljust(2)), end='')
         print(' {}{}{}'.format(colored(s, 'red'), colored(a, 'green'), colored(r, 'blue')))
 
 
