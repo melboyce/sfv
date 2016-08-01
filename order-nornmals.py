@@ -29,10 +29,17 @@ def main():
         return 2
 
     moves = []
+    kdmoves = []
     longest_name = 0
     with open(charfn, 'r') as data:
         for line in data:
             els = line.split('\t')
+
+            try:
+                kd, kdr, kdbr = int(els[17]), int(els[18]), int(els[19])
+                kdmoves.append({'name': els[0], 'kd': [kd, kdr, kdbr]})
+            except Exception:
+                pass
 
             # TODO this whole set of guards is stinky :/
             if els[0] in ('Move', 'health', 'stun', 'taunt', 'jump'):
@@ -63,7 +70,7 @@ def main():
                 continue
 
             try:
-                move = {'name': els[0], 'startup': int(els[2]), 'active': int(els[3]), 'recovery': int(els[4])}
+                move = {'name': els[0], 'startup': int(els[2]) - 1, 'active': int(els[3]), 'recovery': int(els[4])}
             except Exception:
                 pp(line)
                 raise
@@ -85,10 +92,18 @@ def main():
             r += '-'
         n = move['name']
 
-        lfm = move['startup'] + move['active'] - 1 + lfmadj
+        lfm = move['startup'] + move['active'] + lfmadj
+
+        kduse = []
+        for kdmove in kdmoves:
+            if lfm - 1 in kdmove['kd']:
+                kduse.append(kdmove['name'])
 
         print('{} [{}]'.format(n.rjust(longest_name), str(lfm).ljust(2)), end='')
-        print(' {}{}{}'.format(colored(s, 'red'), colored(a, 'green'), colored(r, 'blue')))
+        print(' {}{}{}'.format(colored(s, 'red'), colored(a, 'green'), colored(r, 'blue')), end='')
+        if kduse:
+            print('  {}'.format(colored(', '.join(kduse), 'magenta')), end='')
+        print()
 
 
 if __name__ == '__main__':
