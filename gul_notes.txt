@@ -1,0 +1,63 @@
+b.hp(cc) KDR/KD : f.mk b.hp f.mk b.hp
+                : f.dash c.lk s.mp c.mk s.lk s.mp
+                : f.dash c.lk s.mp s.hk c.hp(lf)
+b.hp(cc) KDBR/KD: f.mk s.hk (b.dash b.hp / c.hp s.mp)
+
+
+EX BOOM NOTES
+ex.boom(close) KDR b.lk s.hp(3f safe)
+ex.boom(close) KDR f.dash b.lk throw | s.hk throw
+
+
+VR
+VR KDBR b.lk throw
+
+
+NATURAL THROW OKI
+swing-out KDR b.lk throw | s.hk throw
+
+
+
+OKI TOOLS
+b.hp -> b.hp
+  -1 on block, +1 for perfect meaty
+  sobat(29) + b.hp(8,9,10) + adv.block(-1,0,1) = 38f  # adv. on 2nd b.hp will match adv. on first
+
+
+
+STRINGS
+KDR001: fk -> s.mp...fk -> b.hp(cc) -> b.lk,c.hp,c.mp,fk -> s.mp,c.mp,ex.boom[KDR001.c1] -> b.lk,c.lk,c.mp,boom
+KDR001.c1: [KDR001] -> reset,b.throw -> s.hk,c.lp,boom,vt,f.dash,s.hp,c.mp,boom,break,fm,break
+
+KDR002: fk -> s.mp,swingout -> b.lk,throw -> s.hk,c.lp,fk -> b.hp(cc) -> sobat,f.hp(cc) -> f.dash,s.hp,c.mp,ex.fk
+
+
+KDB001: fk -> f.dash,f.hp(cc) -> f.dash,s.hp,c.mp,ex.boom -> f.dash,b.lk,b.hp(cc) -> f.dash,c.lk,bazooka,c.lp,c.lp,ex.fk -> m.boom 
+b.hp(cc) -> f.dash,s.mp,smp
+b.hp(cc) -> b.lk,s.hk
+b.hp(cc) -> f.dash,c.lk,bazooka
+
+
+
+
+THROW SETUPS
+b.hp(cc).KDR  f.dash,s.lk,throw | s.hk,throw
+b.hp(cc).KDBR f.dash,s.mp,throw | b.hp,throw
+swingout.KDR  b.lk,throw | s.hk,throw
+swingout.KDBR f.dash,c.lk,throw | b.hp,throw
+vr.KDR  c.lk~c.lk,throw | s.hk,throw
+vr.KDBR b.lk,throw | b.hp,throw
+fk.KDR(cnr)  fk,s.mp,throw | s.hk,throw
+fk.KDBR(cnr) fk,{s.mk,throw},throw | b.hp,throw
+ex.fk.KDR  c.lp~c.lp,throw | s.hk,throw
+ex.fk.KDBR s.hp,throw | b.hp,throw
+
+
+
+
+DIFF BETWEEN KDR AND KDBR
+All: 5f
+
+DIFF BETWEEN KDR AND KD
+Non-throw: 59f
+Throw:     49f
