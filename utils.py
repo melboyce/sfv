@@ -1,5 +1,11 @@
 '''
 Street Fighter V tools
+--
+
+should be pretty obvious what to do. check the bottom for an example.
+
+NOTE: there are some brittle spots, but I'm erring on the side of savvy user so
+I don't have to burn cycles being defensive.
 '''
 
 import glob
@@ -7,18 +13,6 @@ import itertools
 import os
 # import sys
 from pprint import pprint as pp
-
-
-STATS = [
-    'health',
-    'stun',
-    'taunt',
-    'jump',
-    'jump forward',
-    'jump backward',
-    'dash forward',
-    'dash backward',
-]
 
 
 def get_chars(only=None):
