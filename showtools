@@ -1,0 +1,120 @@
+#!/usr/bin/python2
+from __future__ import print_function
+'''
+showtools [CHARCODE] [ORDERBY]
+
+Displays tools for named character.
+
+CHARCODE is the TLA used by Capcom for each character name
+ORDERBY one of: oki, startup, active, blockadv, hitadv, kdadv, total
+  - 'oki' will order by a combination of start-up and active
+  - default is total
+'''
+
+import sys
+
+from operator import itemgetter
+from pprint import pprint as pp
+from termcolor import colored
+
+import utils
+
+
+def main():
+    if len(sys.argv) < 2:
+        return usage()
+
+    orderby = 'total'
+    try:
+        orderby = sys.argv[2]
+    except Exception:
+        pass
+
+    charcode = sys.argv[1].upper()
+    all_data = utils.get(charcode)[charcode]
+    tool_data = {k: v for k, v in all_data.items() if set(('oki', )) & v['tags']}
+
+    if orderby != 'oki':
+        tool_data = sorted(tool_data.values(), key=lambda k: k[orderby])
+    else:
+        tool_data = sorted(tool_data.values(), key=itemgetter('startup', 'active', 'recovery'))
+
+    longest_move_name = len(max([x['move'] for x in tool_data], key=len))
+
+    for move in tool_data:
+        try:
+            tot = '{0: 3d}  '.format(move['total'])
+        except ValueError:
+            tot = ' --  '
+        print('{}'.format(colored(tot, 'grey', attrs=['bold'])), end='')
+
+        blkadv = move['block advantage']
+        hitadv = move['hit advantage']
+
+        if isinstance(blkadv, int):
+            if blkadv < 0:
+                badv = colored(str(blkadv).rjust(3), 'grey', 'on_red')
+            elif blkadv > 0:
+                badv = colored(str(blkadv).rjust(3), 'white', 'on_cyan', attrs=['bold'])
+            else:
+                badv = str(blkadv).rjust(3)
+        else:
+            badv = colored(str(blkadv).rjust(3), 'grey', attrs=['bold'])
+
+        if isinstance(hitadv, int):
+            if hitadv < 0:
+                hadv = colored(str(hitadv).ljust(3), 'white', 'on_red')
+            elif hitadv > 0:
+                hadv = colored(str(hitadv).ljust(3), 'white', 'on_green', attrs=['bold'])
+            else:
+                hadv = str(hitadv).ljust(3)
+        else:
+            if hitadv == 'KD':
+                hadv = colored('KD ', 'magenta', attrs=['bold'])
+            else:
+                hadv = colored(str(hitadv).ljust(3), 'grey', attrs=['bold'])
+
+        print('{}{}  '.format(badv, hadv), end='')
+
+        print('{} '.format(move['move'].rjust(longest_move_name)), end='')
+
+        su_sym = '-'
+        ac_sym = '#'
+        rc_sym = '-'
+
+        try:
+            su = su_sym * move['startup']
+        except TypeError:
+            su = ''
+
+        try:
+            ac = ac_sym * move['active']
+        except TypeError:
+            if isinstance(move['active'], list):
+                ac = ''
+                for i, f in enumerate(move['active']):
+                    if i % 2 == 0:
+                        ac += ac_sym * f
+                    else:
+                        ac += rc_sym * f
+            else:
+                ac = ac_sym
+
+        try:
+            rc = rc_sym * move['recovery']
+        except TypeError:
+            rc = ''
+
+        print('{}{}{}'.format(colored(su, 'magenta'), colored(ac, 'cyan'), colored(rc, 'blue')), end='')
+
+        print()
+
+    return 0
+
+
+def usage():
+    print(__doc__)
+
+
+if __name__ == '__main__':
+    sys.exit(main())
