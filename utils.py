@@ -15,9 +15,10 @@ import os
 from pprint import pprint as pp
 
 
-def get_chars(only=None):
+def get(only=None):
     '''
     returns dictionary of character data
+    only optionally specifies the charcode for one character to load
     '''
     data = {}
 
@@ -60,13 +61,6 @@ def parse_data(k, v):
     return v
 
 
-def _split_ints(v):
-    r = [int(''.join(x)) for isnum, x in itertools.groupby(v, key=str.isdigit) if isnum]
-    if not r:
-        return v
-    return r
-
-
 def load_char_from_path(fn):
     '''
     returns charname(str), chardata(dict)
@@ -75,23 +69,32 @@ def load_char_from_path(fn):
         charname = os.path.basename(fn).split('.')[0]  # XXX brittle
         keys = []
         cdata = {}
+        idx = 0
 
         for line in f:
             line = line.strip()
             els = line.split('\t')
             if els[0] == 'Move':
-                keys = [e.strip() for e in els]
+                keys = [e.strip().lower() for e in els]
                 continue
 
             row = dict(zip(keys, els))
+            row['index'] = idx
             for prop, val in row.items():
                 row[prop] = parse_data(prop, val)
 
-            mvname = row['Move']
+                # sometimes total isn't present even though startup, active, and recovery are known
+                if row.get('total') in ('', '-', '?', '??'):
+                    try:
+                        row['total'] = row['startup'] + row['active'] + row['recovery'] - 1
+                    except TypeError:
+                        pass
+
+            mvname = row['move']
 
             # add tags to make queries possible
             tags = set()
-            if mvname not in ('stun', 'taunt', 'health', 'V-TRIGGER'):
+            if mvname not in ('stun', 'taunt', 'health', 'v-trigger'):
                 if mvname.startswith('jump'):
                     tags.add('jump')
                 elif mvname.startswith('dash'):
@@ -101,17 +104,26 @@ def load_char_from_path(fn):
             else:
                 tags.add('stats')
 
-            if row.get('Hit Advantage') == 'KD':
+            if row.get('hit advantage') == 'KD':
                 tags.add('kd')
 
             cdata[mvname] = row
             cdata[mvname]['tags'] = tags
 
+            idx += 1
+
         return charname, cdata
 
 
+def _split_ints(v):
+    r = [int(''.join(x)) for isnum, x in itertools.groupby(v, key=str.isdigit) if isnum]
+    if not r:
+        return v
+    return r
+
+
 if __name__ == '__main__':
-    d = get_chars('GUL')
+    d = get('GUL')
     pp(d)
     # for charname, moves in d.items():
     #     for move, props in moves.items():
