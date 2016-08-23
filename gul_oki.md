@@ -17,13 +17,16 @@ For the uninitiated, oki setups such as these utilize *frame kills* in order to
 burn a requisite number of frames such that the pressure is frame perfect.
 Using the following setup as an example, let's walk through it to make sure
 everything is understood.
+
 `s.mp(4/3) | {s.hp s.mp(5/4) OR c.mk b.hp(4/1)}`
+
 This is a setup for c.hk (1st hit) KDR/KR - that is, the first hit of crouching
 heavy kick and quick-rise (or no recovery). After recovering from a c.hk, with
 no delay, input s.mp. If the opponent quick-rises, you will score a hit (unless
 they use an invulnerable reversal) and the brackets indicate the advantage on
 hit and block (hit/block) - in this case: +4 on hit, +3 on block. Counterhits
 confer +2f of advantage, so on CH, it's +6.
+
 If the opponent doesn't quick-rise and instead opts to recover normally (no
 recovery), after the s.mp whiffs, continue, without delay, to input the
 remainder of the string: either `s.hp s.mp` or `c.mk b.hp`.
@@ -34,6 +37,7 @@ The obvious caveat is that you probably need to get a read on KDR or KDBR
  * **pipe (|)** separates KDR/KDBR option from KD option
  * **{a OR b}** interchangeable options
  * **(4/3)** brackets indicate hit/block advantage
+ * **1f gap** may suffix a setup - this means the pressure isn't meaty
 
 ## Notes
  * c.mp and s.mp are fully interchangeable; s.mp has better advantage on hit or block and is more active.
@@ -51,19 +55,9 @@ The obvious caveat is that you probably need to get a read on KDR or KDBR
 ### KDR / KD
 `c.lp(4/2) | c.mp c.lp s.mp(4/3)`
 
-On block or non-CH hit, the c.lp will create a trap into the c.mp.
+`s.mp(4/3) | {s.hp s.mp(5/4) OR c.mk b.hp(4/1)}` *1f gap*
 
-
-`s.mp(4/3) | {s.hp s.mp(5/4) OR c.mk b.hp(4/1)}`
-
-1f gap on KDR.
-To cover KD, choose either a b.hp or s.mp option depending on taste.
-
-
-`s.lk(4/2) | b.hp s.mp(6/5)`
-
-1f gap on KDR.
-Might be useful as s.lk can be optioned into s.lk~s.mk.
+`s.lk(4/2) | b.hp s.mp(6/5)` *1f gap*
 
 
 ### KDBR / KD
@@ -72,9 +66,7 @@ Might be useful as s.lk can be optioned into s.lk~s.mk.
 
 ## c.hk (2)
 ### KDR / KD
-`f.dash s.mp(4/3) | s.hp s.mp(5/4)`
-
-1f gap on KDR.
+`f.dash s.mp(4/3) | s.hp s.mp(5/4)` *1f gap*
 
 
 ### KDBR / KD
@@ -82,13 +74,14 @@ Might be useful as s.lk can be optioned into s.lk~s.mk.
 
 
 ## c.hk (cc)
-Note: no quick-recovery options for opponent.
+Note: Opponent cannot quick recover.
 ### 1st hit (+52)
 `b.lk f.dash s.mp(6/5)`
 
 `b.lk s.mp {s.mp(4/3) OR throw}`
 
 `b.lk s.lk b.hp(3/0)`
+
 
 ### 2nd hit (+70)
 `b.lk f.dash f.dash s.mp(6/5)`
@@ -111,6 +104,7 @@ Note: no quick-recovery options for opponent.
 The following setups are for crush-counter b.hp on the first frame. If you use
 the b.hp meaty and get a CC, the advantage will change by either 1 or 2 frames.
 The following headers include the advantage.
+
 ### b.hp(2/-1) KDR / KD
 `sobat b.hp(4/1) | {s.hk s.mp(4/3) OR sobat b.hp(4/1)}`
 
@@ -122,9 +116,7 @@ The following headers include the advantage.
 
 
 ### b.hp(4/1) KDR / KD
-`s.hk b.hp(2/-1) | {s.hp b.hp(3/0) OR b.hp s.mp(5/4)}`
-
-1f gap on KDR.
+`s.hk b.hp(2/-1) | {s.hp b.hp(3/0) OR b.hp s.mp(5/4)}` *1f gap*
 
 `f.dash s.lk s.mp(6/5) | c.mp c.mp s.mp(5/4)`
 
