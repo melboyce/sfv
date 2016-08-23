@@ -166,13 +166,14 @@ The following headers include the advantage.
 ---
 ## Dragon Suplex (throw)
 ### KDR / KD
-### KDBR / KD
 
 
 ---
 ## Judo Throw (b.throw)
+After this throw, Guile is *just* in range for a c.mp if they block or press a
+button - the timing is, however, manual.
 ### KDR / KD
-### KDBR / KD
+`s.hk(2/-2) | {s.mp b.hp(4/1) OR c.mk s.mp(6/5) OR f.dash c.hp(6/1)}`
 
 
 ---
@@ -183,6 +184,8 @@ The following headers include the advantage.
 
 ---
 ## Flying Buster Drop (b.throw(air))
+There are no options against either KDR or KDBR, only KD. Committing to a KD
+setup will leave Guile vulnerable to a punish.
 ### KDR / KD
 ### KDBR / KD
 
