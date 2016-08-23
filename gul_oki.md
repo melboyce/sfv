@@ -66,10 +66,8 @@ To cover KD, choose either a b.hp or s.mp option depending on taste.
 Might be useful as s.lk can be optioned into s.lk~s.mk.
 
 
-
 ### KDBR / KD
 `b.hp(3/0) | {s.lp b.hp(4/1) OR s.lk s.mp(6/5)}`
-
 
 
 ## c.hk (2)
@@ -79,10 +77,8 @@ Might be useful as s.lk can be optioned into s.lk~s.mk.
 1f gap on KDR.
 
 
-
 ### KDBR / KD
 `f.dash b.hp(3/0) | s.lp b.hp(4/1)`
-
 
 
 ## c.hk (cc)
@@ -100,15 +96,16 @@ Note: no quick-recovery options for opponent.
 `b.lk boom {s.mp(4/3) OR throw}`
 
 
-
 ## df.hk / GHK
 ### KDR / KD
 `{f.dash f.dash OR f.hk} s.mp(5/4) | df.hk s.mp(6/5)`
+
 
 ### KDBR / KD
 `{f.dash f.dash OR f.hk} f.hp(5/0) | {b.hp s.mp(6/5) OR s.hp b.hp(4/1) OR s.hp f.hp(4/-1)}`
 
 `{f.dash f.dash OR f.hk} sobat(2/-2) | {sobat s.mp(6/5) OR s.hp b.hp(3/0)}`
+
 
 ## b.hp (cc)
 The following setups are for crush-counter b.hp on the first frame. If you use
@@ -116,21 +113,27 @@ the b.hp meaty and get a CC, the advantage will change by either 1 or 2 frames.
 The following headers include the advantage.
 ### b.hp(2/-1) KDR / KD
 `sobat b.hp(4/1) | {s.hk s.mp(4/3) OR sobat b.hp(4/1)}`
+
 `sobat f.hp(4/-1) | sobat f.hp(6/1)`
+
 
 ### b.hp(3/0) KDR/KD
 *Use b.hp(4/1)*
 
+
 ### b.hp(4/1) KDR / KD
 `s.hk b.hp(2/-1) | {s.hp b.hp(3/0) OR b.hp s.mp(5/4)}`
+
 1f gap on KDR.
 
 `f.dash s.lk s.mp(6/5) | c.mp c.mp s.mp(5/4)`
+
 
 ### b.hp(2/-1) KDBR / KD
 `f.dash s.mp s.mp(5/4) | s.hk s.mp(5/4)`
 
 `f.dash s.lk b.hp(4/1) | throw b.hp(4/1)`
+
 
 ### b.hp(3/0) KDBR / KD
 *Use b.hp(4/1)*
@@ -143,6 +146,7 @@ The following headers include the advantage.
 `f.dash f.dash b.hp(4/1) | s.mk b.hp(4/1)`
 
 `f.dash f.dash b.hp(4/1) | s.hp s.mp(6/5)`
+
 
 ## swing-out
 ### KDR / KD
