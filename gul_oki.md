@@ -46,29 +46,44 @@ The obvious caveat is that you probably need to get a read on KDR or KDBR
  * s.mk and whiffed throw both total at 24f.
 
 
+
 ## c.hk (1)
 ### KDR / KD
 `c.lp(4/2) | c.mp c.lp s.mp(4/3)`
+
 On block or non-CH hit, the c.lp will create a trap into the c.mp.
 
+
 `s.mp(4/3) | {s.hp s.mp(5/4) OR c.mk b.hp(4/1)}`
+
 1f gap on KDR.
 To cover KD, choose either a b.hp or s.mp option depending on taste.
 
+
 `s.lk(4/2) | b.hp s.mp(6/5)`
+
 1f gap on KDR.
 Might be useful as s.lk can be optioned into s.lk~s.mk.
+
+
 
 ### KDBR / KD
 `b.hp(3/0) | {s.lp b.hp(4/1) OR s.lk s.mp(6/5)}`
 
+
+
 ## c.hk (2)
 ### KDR / KD
 `f.dash s.mp(4/3) | s.hp s.mp(5/4)`
+
 1f gap on KDR.
+
+
 
 ### KDBR / KD
 `f.dash b.hp(3/0) | s.lp b.hp(4/1)`
+
+
 
 ## c.hk (cc)
 Note: no quick-recovery options for opponent.
@@ -83,6 +98,7 @@ Note: no quick-recovery options for opponent.
 `b.lk f.dash f.dash s.mp(6/5)`
 
 `b.lk boom {s.mp(4/3) OR throw}`
+
 
 
 ## df.hk / GHK
