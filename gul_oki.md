@@ -51,7 +51,7 @@ The obvious caveat is that you probably need to get a read on KDR or KDBR
 
 
 
-## c.hk (1)
+## Crouching HK, 1st hit
 ### KDR / KD
 `c.lp(4/2) | c.mp c.lp s.mp(4/3)`
 
@@ -64,7 +64,7 @@ The obvious caveat is that you probably need to get a read on KDR or KDBR
 `b.hp(3/0) | {s.lp b.hp(4/1) OR s.lk s.mp(6/5)}`
 
 
-## c.hk (2)
+## Crouching HK, 2nd hit
 ### KDR / KD
 `f.dash s.mp(4/3) | s.hp s.mp(5/4)` *1f gap*
 
@@ -73,7 +73,7 @@ The obvious caveat is that you probably need to get a read on KDR or KDBR
 `f.dash b.hp(3/0) | s.lp b.hp(4/1)`
 
 
-## c.hk (cc)
+## Crouching HK, Crush Counter
 Note: Opponent cannot quick recover.
 ### 1st hit (+52)
 `b.lk f.dash s.mp(6/5)`
@@ -89,7 +89,7 @@ Note: Opponent cannot quick recover.
 `b.lk boom {s.mp(4/3) OR throw}`
 
 
-## df.hk / GHK
+## Guile High Kick (df.hk)
 ### KDR / KD
 `{f.dash f.dash OR f.hk} s.mp(5/4) | df.hk s.mp(6/5)`
 
@@ -100,7 +100,7 @@ Note: Opponent cannot quick recover.
 `{f.dash f.dash OR f.hk} sobat(2/-2) | {sobat s.mp(6/5) OR s.hp b.hp(3/0)}`
 
 
-## b.hp (cc)
+## Burn Straight, Crush Counter (b.hp)
 The following setups are for crush-counter b.hp on the first frame. If you use
 the b.hp meaty and get a CC, the advantage will change by either 1 or 2 frames.
 The following headers include the advantage.
@@ -140,42 +140,42 @@ The following headers include the advantage.
 `f.dash f.dash b.hp(4/1) | s.hp s.mp(6/5)`
 
 
-## swing-out
+## Swing Out / Bullet Revolver
 ### KDR / KD
 ### KDBR / KD
 
-## throw
+## Dragon Suplex (throw)
 ### KDR / KD
 ### KDBR / KD
 
-## b.throw
+## Judo Throw (b.throw)
 ### KDR / KD
 ### KDBR / KD
 
-## throw (air)
+## Flying Mare (throw(air))
 ### KDR / KD
 ### KDBR / KD
 
-## b.throw (air)
+## Flying Buster Drop (b.throw(air))
 ### KDR / KD
 ### KDBR / KD
 
-## v-reversal / vr / f.ppp
+## Reverse Back Knuckle (V-Reversal)
 ### KDR / KD
 ### KDBR / KD
 
-## ex.boom / tempest
+## EX Sonic Boom / Sonic Tempest
 ### KDR / KD
 ### KDBR / KD
 
-## fk
+## Flash Kick (light, medium, heavy)
 ### KDR / KD
 ### KDBR / KD
 
-## ex.fk
+## EX Flash Kick
 ### KDR / KD
 ### KDBR / KD
 
-## hurricane
+## Sonic Hurricane
 ### KDR / KD
 ### KDBR / KD
