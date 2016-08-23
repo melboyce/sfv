@@ -134,6 +134,7 @@ The following headers include the advantage.
 ### b.hp(3/0) KDBR / KD
 *Use b.hp(4/1)*
 
+
 ### b.hp(4/1) KDBR / KD
 `f.dash c.mk s.mp(4/3) | s.hk s.mp(4/3)`
 
@@ -147,7 +148,19 @@ The following headers include the advantage.
 ---
 ## Swing Out / Bullet Revolver
 ### KDR / KD
+`b.lk throw | s.hk throw`
+
+`b.lk s.lp(5/4) | c.mp throw s.mp(6/5)`
+
+`b.lk s.mp(4/3) | boom s.mp(5/4)`
+
+
 ### KDBR / KD
+`b.lk b.hp(4/1) | throw b.hp(4/1)`
+
+`b.lk b.hp(4/1) | s.hp s.mp(6/5)`
+
+`b.lk {f.hp(4/-1) OR c.hp(4/-1)} | {f.hp b.hp(2/-1) OR sobat s.mp(6/5)}`
 
 
 ---
