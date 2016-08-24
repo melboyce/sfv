@@ -191,8 +191,8 @@ detail of it here.
 
 ---
 ## Flying Buster Drop (b.throw(air))
-There are no safe options against KDR, only KD - thus, these setups use a
-normal at the start to keep Guile somewhat safe.
+There are no safe options against KDR, only KD - thus, some of these setups use
+a normal at the start to keep Guile a little safer.
 ### KDR / KD
 `c.lp sobat b.hp(4/1)` *KD only*
 
