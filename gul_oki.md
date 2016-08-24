@@ -43,7 +43,6 @@ The obvious caveat is that you probably need to get a read on KDR or KDBR
 ## Notes
 * c.mp and s.mp are fully interchangeable; s.mp has better advantage on hit or block and is more active.
 * s.mk and s.hp have the same start-up and active frames; s.mk is slightly faster to recover.
-* any setup ending in sobat can use f.hp instead; f.hp recovers 1f quicker than sobat though.
 * any setup which ends with b.hp can likely be ended with f.hp or c.hp (mind the advantage).
 * sobat, f.hp, c.hp, and b.lk all share the same final active frame and all bar sobat recover in 28f (sobat: 29f).
 * 2 x f.dash is 36f - the same total frames as f.hk.
