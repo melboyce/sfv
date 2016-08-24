@@ -178,16 +178,26 @@ button - the timing is, however, manual.
 
 ---
 ## Flying Mare (throw(air))
+Depending on circumstance, this throw either leaves Guile at +28 or +30 for
+KDR. If the means by which this effect applies is discovered, I will post
+detail of it here.
 ### KDR / KD
-### KDBR / KD
+
+`f.dash b.hp(4/1)` *+28*
+
+`f.dash c.hp(6/1) | c.mk b.hp(4/1)` *+30*
 
 
 ---
 ## Flying Buster Drop (b.throw(air))
-There are no options against either KDR or KDBR, only KD. Committing to a KD
-setup will leave Guile vulnerable to a punish.
+There are no safe options against KDR, only KD - thus, these setups use a
+normal at the start to keep Guile somewhat safe.
 ### KDR / KD
-### KDBR / KD
+`c.lp sobat b.hp(4/1)` *KD only*
+
+`c.mp b.lk {s.lp(4/3) OR s.mp(4/3)}` *KD only, 1f gap for s.mp*
+
+`f.dash b.lk s.mp(5/4)` *KD only, unsafe vs. KDR*
 
 
 ---
