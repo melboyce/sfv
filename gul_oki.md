@@ -38,6 +38,7 @@ The obvious caveat is that you probably need to get a read on KDR or KDBR
  * **{a OR b}** interchangeable options
  * **(4/3)** brackets indicate hit/block advantage
  * **1f gap** may suffix a setup - this means the pressure isn't meaty
+ * **~** (tilde) represents "chain" timing (fast)
 
 ## Notes
  * c.mp and s.mp are fully interchangeable; s.mp has better advantage on hit or block and is more active.
@@ -203,13 +204,35 @@ normal at the start to keep Guile somewhat safe.
 ---
 ## Reverse Back Knuckle (V-Reversal)
 ### KDR / KD
+`f.dash b.hp(4/1) | sobat b.hp(4/1)`
+
+`f.dash f.hp(4/-1) | sobat f.hp(6/1)`
+
+
 ### KDBR / KD
+`f.dash s.hk(2/-1) | b.lk s.mp(6/5)`
+
+`f.dash f.hk(3/-1) | b.lk s.mp(4/3)` *1f gap*
 
 
 ---
 ## EX Sonic Boom / Sonic Tempest
+A common follow-up for ex.boom is b.lk which can air-reset the opponent. This
+only works at close range, but allows for some sterling pressure.  It's worth
+noting that ex.boom has, probably, the most esoteric setups as the advantage
+doesn't really suit Guile.
 ### KDR / KD
+`b.lk(early reset) {s.hp(8/-2) OR c.hp(3/-2)}` *reset (no KD)*
+
+`f.dash b.lk throw | s.hk throw` *2f gap on KDR, 1f gap on KD*
+
+`f.dash c.lp~c.lp s.hp(8/-2) | s.hk s.mp(6/5)`
+
+`f.dash b.lk s.mp(4/3) | f.hk s.mp(5/4)` *2f gap*
+
+
 ### KDBR / KD
+`f.dash f.dash f.hk(5/1) | sobat s.mp(6/5)`
 
 
 ---
