@@ -34,21 +34,21 @@ The obvious caveat is that you probably need to get a read on KDR or KDBR
 (quick-rise or back-rise).
 
 ## Syntax
- * **pipe (|)** separates KDR/KDBR option from KD option
- * **{a OR b}** interchangeable options
- * **(4/3)** brackets indicate hit/block advantage
- * **1f gap** may suffix a setup - this means the pressure isn't meaty
- * **~** (tilde) represents "chain" timing (fast)
+* **pipe (|)** separates KDR/KDBR option from KD option
+* **{a OR b}** interchangeable options
+* **(4/3)** brackets indicate hit/block advantage
+* **1f gap** may suffix a setup - this means the pressure isn't meaty
+* **~** (tilde) represents "chain" timing (fast)
 
 ## Notes
- * c.mp and s.mp are fully interchangeable; s.mp has better advantage on hit or block and is more active.
- * s.mk and s.hp have the same start-up and active frames; s.mk is slightly faster to recover.
- * any setup ending in sobat can use f.hp instead; f.hp recovers 1f quicker than sobat though.
- * b.hp setups can use c.hp instead, but the advantage isn't great. +4 on hit, -1 on block.
- * 2 x f.dash is 36f - the same total frames as f.hk.
- * boom and df.hk (ghk) share the same total frames and are interchangeable for frame kills.
- * any setup which ends with b.hp can likely be ended with f.hp.
- * s.mk and whiffed throw both total at 24f.
+* c.mp and s.mp are fully interchangeable; s.mp has better advantage on hit or block and is more active.
+* s.mk and s.hp have the same start-up and active frames; s.mk is slightly faster to recover.
+* any setup ending in sobat can use f.hp instead; f.hp recovers 1f quicker than sobat though.
+* b.hp setups can use c.hp instead, but the advantage isn't great. +4 on hit, -1 on block.
+* 2 x f.dash is 36f - the same total frames as f.hk.
+* boom and df.hk (ghk) share the same total frames and are interchangeable for frame kills.
+* any setup which ends with b.hp can likely be ended with f.hp.
+* s.mk and whiffed throw both total at 24f.
 
 
 ---
@@ -237,17 +237,65 @@ doesn't really suit Guile.
 
 ---
 ## Flash Kick (light, medium, heavy)
-### KDR / KD
-### KDBR / KD
+There are some real subtlties to Guile's Flash Kick in SFV, but the summary is
+as follows (some exceptions apply for EX FK):
+
+* all FKs have some period of full invulnerability
+* all FKs start with throw invulnerability
+* all FKs start grounded
+* oki is only stable after a grounded FK
+* the most stable oki setups rely on the first active frame connecting
+* all FK strengths have the same KDR, KDBR, and KD advantages
+* hk.fk's 1st active frame is the farthest range of the 3
+* lk.fk starts up and gains full invulnerability the quickest
+
+The takeaway is this:
+* always use hk.fk in grounded combos
+* always use lk.fk for standard AA (mk or hk for ranged AA)
+
+Okizeme off 1st active frame (AF1) is the most desirable situation, but
+knowledge of what to use for later hits is essential. Some practice and a keen
+eye are required.
+
+The setups will be broken up into 3 versions: 1st active frame (AF1), 1st
+airborne frame (AB1), and last frame (LF).
+
+Although there are a few frames between AF1 and AB1, AB1 setups should cover the gap handily, but bear the following in mind:
+* AF1 setups whiff for AB1
+* AB1 setups *may* whiff for LF
+* AB1 and LF setups are likely interruptible vs. AF1
+
+### AF1 KDR / KD
+`f.dash s.mp(6/5) | {c.mp c.mp s.mp(5/4) OR c.mk s.lk s.mp(6/5)}`
+
+`f.dash b.hp(2/-1) | s.hp b.hp(3/0)` *1f gap, works for AB1*
+
+`f.dash s.lk(6/4) | s.mk s.mp s.mp(5/4)` *not as good as s.mp, but different*
+
+
+### AF1 KDBR / KD
+`f.dash {f.hp(6/1) OR b.lk(2/-2) OR c.hp(6/1)} | {b.lk b.hp(4/1) OR s.hk s.mp(4/3)}` *some 1f,2f gaps*
+
+`f.dash sobat(3/-1) | b.hp s.mp(6/5)` *great option if you read KD*
+
+`f.dash s.hk(1/-3) | {throw b.hp(2/-1) OR c.mk b.hp(3/0) OR s.hp s.mp(4/3) OR s.mp f.hp(6/1)}` *2f gap, covers AB1*
 
 
 ---
 ## EX Flash Kick
+WIP
 ### KDR / KD
+`f.dash b.hp(3/0) | {b.hp b.hp(2/-1) OR b.lk b.hp(4/1) OR s.hk s.mp(4/3)}`
+
+`f.dash s.hp(8/-2) | s.hk s.mp(6/5)`
+
+
 ### KDBR / KD
+`f.dash s.hk(1/-3) | s.hp s.mp(6/5)`
 
 
 ---
 ## Sonic Hurricane
+WIP
 ### KDR / KD
 ### KDBR / KD
