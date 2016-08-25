@@ -282,15 +282,20 @@ Although there are a few frames between AF1 and AB1, AB1 setups should cover the
 
 ---
 ## EX Flash Kick
-WIP
+Okizeme play after an EX FK is more restricted than a regular FK, but there are
+still some solid options.
 ### KDR / KD
 `f.dash b.hp(3/0) | {b.hp b.hp(2/-1) OR b.lk b.hp(4/1) OR s.hk s.mp(4/3)}`
 
 `f.dash s.hp(8/-2) | s.hk s.mp(6/5)`
 
+**CNR** `c.lp~c.lp throw | s.hk throw`
+
 
 ### KDBR / KD
 `f.dash s.hk(1/-3) | s.hp s.mp(6/5)`
+
+**CNR** `s.hp throw | b.hp throw`
 
 
 ---
