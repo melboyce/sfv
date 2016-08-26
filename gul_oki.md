@@ -115,7 +115,7 @@ The following headers include the advantage.
 `sobat f.hp(4/-1) | sobat f.hp(6/1)`
 
 
-### b.hp(3/0) KDR/KD
+### b.hp(3/0) KDR / KD
 *Use b.hp(4/1)*
 
 
