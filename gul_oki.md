@@ -300,6 +300,13 @@ still some solid options.
 
 ---
 ## Sonic Hurricane
-WIP
+These setups, for now at least, only focus on a grounded hit from Sonic
+Hurricane. Due to the distance from opponent after knock-down, they only work
+in the corner.
 ### KDR / KD
+**CNR** `f.dash s.lp(5/4) | s.mp throw s.mp(6/5)`
+
+**CNR** `f.dash s.mp(4/3) | df.hk s.mp(5/4)`
+
 ### KDBR / KD
+**CNR** `f.dash b.hp(4/1) | {s.hp s.mp(6/5) OR throw b.hp(4/1)}`
