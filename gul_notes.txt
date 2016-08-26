@@ -1,9 +1,3 @@
-b.hp(cc) KDR/KD : f.mk b.hp f.mk b.hp
-                : f.dash c.lk s.mp c.mk s.lk s.mp
-                : f.dash c.lk s.mp s.hk c.hp(lf)
-b.hp(cc) KDBR/KD: f.mk s.hk (b.dash b.hp / c.hp s.mp)
-
-
 EX BOOM NOTES
 ex.boom(close) KDR b.lk s.hp(3f safe)
 ex.boom(close) KDR f.dash b.lk throw | s.hk throw
