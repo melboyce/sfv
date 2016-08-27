@@ -71,10 +71,10 @@ By understanding the fundamental properties of Guile's primary oki toolset, the
 player is able to make on-the-fly adjustments to compensate for meaty or late
 knock-downs.
 
-For example, knowing that an FK followed by `f.dash s.mp` is the limit for
-s.mp, if the fk connects later than 1st active frame, the s.mp will whiff; b.hp
-is a good backup plan here. Another example might be knowing that `f.mk b.hp`
-is a valid follow-up, but the preceeding hit was meaty or late in some way. One
+For example, knowing that an FK followed by `f.dash s.mp` is the limit for s.mp
+(if the fk connects later than 1st active frame, the s.mp will whiff), b.hp is
+a good backup plan here. Another example might be knowing that `f.mk b.hp` is a
+valid follow-up, but the preceeding hit was meaty or late in some way. One
 might switch the sobat out for s.hk to eat the extra frames.
 
 
