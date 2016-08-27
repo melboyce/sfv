@@ -66,12 +66,11 @@ The obvious caveat is that you probably need to get a read on KDR or KDBR
 
 ---
 ## Crouching HK, 2nd hit
-### KDR / KD
-`f.dash s.mp(4/3) | s.hp s.mp(5/4)` *1f gap*
+There are, perhaps coincidentally, 18 frames of extra knock-down advantage for
+hitting with the second hit. Guile's forward dash is 18 frames.
 
-
-### KDBR / KD
-`f.dash b.hp(3/0) | s.lp b.hp(4/1)`
+Thus, if you score a knock-down with the second hit of c.hk, dash forward and
+apply a first hit setup from the previous section.
 
 
 ---
