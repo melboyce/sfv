@@ -74,14 +74,14 @@ In Guile's case, there are only 4 means of closing distance that his setups usua
 After movement comes pressure and the prominent normals suitable for this
 manner of work are:
 
-| move | startup | total f | active range | notes |
+| move | startup | total f | active f range | notes |
 |--------:|:-------:|:-------:|-----------------------------------|----------------------------------------------------|
-| s.mp | 5 | 20 | `-----###-------------` | c.mp with better active and adv., but lesser range |
-| s.hp | 7 | 27 | `-------###------------------` | s.mk has the same start-up and active |
-| b.hp | 8 | 30 | `--------###--------------------` |  |
-| bazooka | 8 | 28 | `--------#####----------------` | interchangeable with c.hp |
-| f.hp | 10 | 28 | `----------###----------------` | can be used instead of bazooka or c.hp |
-| sobat | 11 | 29 | `-----------##-----------------` | has interchangeability with f.hp |
+| s.mp | 5 | 20 | `-----###` | c.mp with better active and adv., but lesser range |
+| s.hp | 7 | 27 | `-------###` | s.mk has the same start-up and active |
+| b.hp | 8 | 30 | `--------###` |  |
+| bazooka | 8 | 28 | `--------#####` | interchangeable with c.hp |
+| f.hp | 10 | 28 | `----------###` | can be used instead of bazooka or c.hp |
+| sobat | 11 | 29 | `-----------##` | has interchangeability with f.hp |
 
 
 ---
