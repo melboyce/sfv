@@ -20,18 +20,17 @@ everything is understood.
 
 `s.mp(4/3) | {s.hp s.mp(5/4) OR c.mk b.hp(4/1)}`
 
-This is a setup for c.hk (1st hit) KDR/KR - that is, the first hit of crouching
-heavy kick and quick-rise (or no recovery). After recovering from a c.hk, with
-no delay, input s.mp. If the opponent quick-rises, you will score a hit (unless
+This is a setup for c.hk (1st hit) KDR/KD - that is, the first hit of crouching
+heavy kick and quick-rise or no recovery. After scoring a hit off c.hk, with
+no delay, input s.mp. If the opponent quick-rises, you will land a hit (unless
 they use an invulnerable reversal) and the brackets indicate the advantage on
 hit and block (hit/block) - in this case: +4 on hit, +3 on block. Counterhits
 confer +2f of advantage, so on CH, it's +6.
 
 If the opponent doesn't quick-rise and instead opts to recover normally (no
 recovery), after the s.mp whiffs, continue, without delay, to input the
-remainder of the string: either `s.hp s.mp` or `c.mk b.hp`.
-The obvious caveat is that you probably need to get a read on KDR or KDBR
-(quick-rise or back-rise).
+remainder of the string: either `s.hp s.mp` or `c.mk b.hp`. As with the s.mp,
+the advantage is specified in parens () in the event of contact.
 
 ## Syntax
 * **pipe (|)** separates KDR/KDBR option from KD option
