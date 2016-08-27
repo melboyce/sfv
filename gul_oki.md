@@ -293,7 +293,7 @@ as follows (some exceptions apply for EX FK):
 * hk.fk's 1st active frame is the farthest range of the 3
 * lk.fk starts up and gains full invulnerability the quickest
 
-Here is [TOOLASSISTED's](http://twitter.com/TOOLASSISTED) flash kick chart
+Here is [TOOLASSISTED's](https://twitter.com/TOOLASSlSTED) flash kick chart
 (taken from TOOLASSISTED's [SFV Guile Wiki on
 Reddit](https://www.reddit.com/r/SFV_GUILE/wiki/index)):
 
