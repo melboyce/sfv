@@ -75,7 +75,9 @@ apply a first hit setup from the previous section.
 
 ---
 ## Crouching HK, Crush Counter
-Note: Opponent cannot quick recover.
+*Note: Opponent cannot quick recover.*
+Obviously, this is just a KD scenario, so the above setups apply. Below are
+some CC-specific options if that suits.
 ### 1st hit (+52)
 `b.lk f.dash s.mp(6/5)`
 
