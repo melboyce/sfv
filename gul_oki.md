@@ -99,6 +99,7 @@ might switch the sobat out for s.hk to eat the extra frames.
 ---
 ## Crouching HK, 1st hit
 Demonstration video:
+
 [![Guile oki: c.hk](https://img.youtube.com/vi/tDaqAcJPcdM/0.jpg)](https://www.youtube.com/watch?v=tDaqAcJPcdM)
 
 ### KDR / KD
