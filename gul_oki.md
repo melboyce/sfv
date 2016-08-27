@@ -60,6 +60,17 @@ same setups.
 * s.mk and whiffed throw both total at 24f.
 
 
+## A Word About Tools
+In any okizeme setup, the character is going to burn frames just getting into range.
+In Guile's case, there are only 4 means of closing distance that his setups usually rely on.
+
+| move | total f | notes |
+|--------:|:-------:|--------------------------------------------|
+| f.dash | 18 |  |
+| bazooka | 28 | Always use b.lk to maintain charge |
+| sobat | 29 | Execute like you would a boom, but with mk |
+| s.hk | 34 | Always use b.hk to maintain charge |
+
 ---
 ## Crouching HK, 1st hit
 ### KDR / KD
