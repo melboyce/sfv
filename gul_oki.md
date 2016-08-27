@@ -43,22 +43,6 @@ excellent advantage; b.hp may yield a crush counter. Be sure to mix your
 options up based on your tactical requirements rather than *auto-piloting* the
 same setups.
 
-## Syntax
-* **pipe (|)** separates KDR/KDBR option from KD option
-* **{a OR b}** interchangeable options
-* **(4/3)** brackets indicate hit/block advantage
-* **1f gap** may suffix a setup - this means the pressure isn't meaty
-* **~** (tilde) represents "chain" timing (fast)
-
-## Notes
-* c.mp and s.mp are fully interchangeable; s.mp has better advantage on hit or block and is more active.
-* s.mk and s.hp have the same start-up and active frames; s.mk is slightly faster to recover.
-* any setup which ends with b.hp can likely be ended with f.hp or c.hp (mind the advantage).
-* sobat, f.hp, c.hp, and b.lk all share the same final active frame and all bar sobat recover in 28f (sobat: 29f).
-* 2 x f.dash is 36f - the same total frames as f.hk.
-* boom and df.hk (ghk) share the same total frames and are interchangeable for frame kills.
-* s.mk and whiffed throw both total at 24f.
-
 
 ## A Word About Tools
 In any okizeme setup, the character is going to burn frames just getting into range.
@@ -92,6 +76,24 @@ s.mp, if the fk connects later than 1st active frame, the s.mp will whiff; b.hp
 is a good backup plan here. Another example might be knowing that `f.mk b.hp`
 is a valid follow-up, but the preceeding hit was meaty or late in some way. One
 might switch the sobat out for s.hk to eat the extra frames.
+
+
+## Syntax
+* **pipe (|)** separates KDR/KDBR option from KD option
+* **{a OR b}** interchangeable options
+* **(4/3)** brackets indicate hit/block advantage
+* **1f gap** may suffix a setup - this means the pressure isn't meaty
+* **~** (tilde) represents "chain" timing (fast)
+
+
+## Miscellaneous Notes
+* c.mp and s.mp are fully interchangeable; s.mp has better advantage on hit or block and is more active.
+* s.mk and s.hp have the same start-up and active frames; s.mk is slightly faster to recover.
+* any setup which ends with b.hp can likely be ended with f.hp or c.hp (mind the advantage).
+* sobat, f.hp, c.hp, and b.lk all share the same final active frame and all bar sobat recover in 28f (sobat: 29f).
+* 2 x f.dash is 36f - the same total frames as f.hk.
+* boom and df.hk (ghk) share the same total frames and are interchangeable for frame kills.
+* s.mk and whiffed throw both total at 24f.
 
 
 ---
