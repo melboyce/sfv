@@ -27,10 +27,21 @@ they use an invulnerable reversal) and the brackets indicate the advantage on
 hit and block (hit/block) - in this case: +4 on hit, +3 on block. Counterhits
 confer +2f of advantage, so on CH, it's +6.
 
+The pipe signifies the end of the KDR string and the beginning of the KD
+string. Braces denote a set of interchangeable options. In this case, an option
+ending with s.mp or another ending with b.hp.
+
 If the opponent doesn't quick-rise and instead opts to recover normally (no
 recovery), after the s.mp whiffs, continue, without delay, to input the
-remainder of the string: either `s.hp s.mp` or `c.mk b.hp`. As with the s.mp,
-the advantage is specified in parens () in the event of contact.
+remainder of the string: either `s.hp s.mp` or `c.mk b.hp`. As with the KDR
+s.mp previously, the advantage is specified in parens (); e.g., `c.mk
+b.hp(4/1)`.
+
+These options will allow some flexibility after oki is complete. Further
+referencing the above: s.mp gives Guile very close range positioning at
+excellent advantage; b.hp may yield a crush counter. Be sure to mix your
+options up based on your tactical requirements rather than *auto-piloting* the
+same setups.
 
 ## Syntax
 * **pipe (|)** separates KDR/KDBR option from KD option
