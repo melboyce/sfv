@@ -116,6 +116,10 @@ Demonstration video:
 
 ---
 ## Crouching HK, 2nd hit
+Demonstration video:
+
+[![Guile oki: c.hk](https://img.youtube.com/vi/8iqDppev_5U/0.jpg)](https://www.youtube.com/watch?v=8iqDppev_5U)
+
 There are, perhaps coincidentally, 18 frames of extra knock-down advantage for
 hitting with the second hit. Guile's forward dash is 18 frames.
 
@@ -127,7 +131,7 @@ apply a first hit setup from the previous section.
 ## Crouching HK, Crush Counter
 *Note: Opponent cannot quick recover.*
 Obviously, this is just a KD scenario, so the above setups apply. Below are
-some CC-specific options if that suits.
+some CC-specific options if that's your cup of tea.
 ### 1st hit (+52)
 `b.lk f.dash s.mp(6/5)`
 
