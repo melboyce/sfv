@@ -293,6 +293,17 @@ as follows (some exceptions apply for EX FK):
 * hk.fk's 1st active frame is the farthest range of the 3
 * lk.fk starts up and gains full invulnerability the quickest
 
+Here is [TOOLASSISTED's](http://twitter.com/TOOLASSISTED) flash kick chart
+(taken from TOOLASSISTED's [SFV Guile Wiki on
+Reddit](https://www.reddit.com/r/SFV_GUILE/wiki/index)):
+
+| FLASH KICK | START UP | PROJ INV | ALL INV | GROUND | THROW INV |
+|:----------:|:--------:|:--------:|:-------:|:------:|:---------:|
+| LK | 4 | 1-3 | 4-6 | 1-3 | 1-6 |
+| MK | 5 | 1-4 | 5-7 | 1-4 | 1-7 |
+| HK | 6 | 1-5 | 6-8 | 1-5 | 1-8 |
+| EX | 4 |  | 1-9 | 1-6 | 1-9 |
+
 The takeaway is this:
 * always use hk.fk in grounded combos
 * always use lk.fk for standard AA (mk or hk for ranged AA)
