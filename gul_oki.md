@@ -6,6 +6,9 @@ tried to consider rhythm - for example, two forward dashes is more prone to
 execution error than two medium or heavy normals or a dash followed by a
 normal.
 
+*Note: do let me know if you find something that feels or seems hinky so I can
+investigate.*
+
 As with all frame-perfect setups, execution must be on point and there is wild
 fluidity when trying to setup pressure after AA - you must manually execute AA
 oki setups.  
@@ -148,12 +151,16 @@ some CC-specific options if that's your cup of tea.
 
 ---
 ## Guile High Kick (df.hk)
+Demonstration video:
+
+[![Guile oki: c.hk](https://img.youtube.com/vi/gcHQpWt7FoI/0.jpg)](https://www.youtube.com/watch?v=gcHQpWt7FoI)
+
 ### KDR / KD
-`{f.dash f.dash OR f.hk} s.mp(5/4) | df.hk s.mp(6/5)`
+`{f.dash f.dash OR f.hk} s.mp(5/4) | c.mp f.dash s.mp(6/5)`
 
 
 ### KDBR / KD
-`{f.dash f.dash OR f.hk} f.hp(5/0) | {b.hp s.mp(6/5) OR s.hp b.hp(4/1) OR s.hp f.hp(4/-1)}`
+`{f.dash f.dash OR f.hk} f.hp(5/0) | {s.hp b.hp(4/1) OR s.hp f.hp(4/-1)}`
 
 `{f.dash f.dash OR f.hk} sobat(2/-2) | {sobat s.mp(6/5) OR s.hp b.hp(3/0)}`
 
