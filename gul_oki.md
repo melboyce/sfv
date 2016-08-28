@@ -153,7 +153,7 @@ some CC-specific options if that's your cup of tea.
 ## Guile High Kick (df.hk)
 Demonstration video:
 
-[![Guile oki: c.hk](https://img.youtube.com/vi/gcHQpWt7FoI/0.jpg)](https://www.youtube.com/watch?v=gcHQpWt7FoI)
+[![Guile oki: df.hk](https://img.youtube.com/vi/gcHQpWt7FoI/0.jpg)](https://www.youtube.com/watch?v=gcHQpWt7FoI)
 
 ### KDR / KD
 `{f.dash f.dash OR f.hk} s.mp(5/4) | c.mp f.dash s.mp(6/5)`
@@ -170,6 +170,10 @@ Demonstration video:
 The following setups are for crush-counter b.hp on the first frame. If you use
 the b.hp meaty and get a CC, the advantage will change by either 1 or 2 frames.
 The following headers include the advantage.
+
+Demonstration video (partial, incomplete):
+
+[![Guile oki: b.hp](https://img.youtube.com/vi/Zsx5vOfANCQ/0.jpg)](https://www.youtube.com/watch?v=Zsx5vOfANCQ)
 
 ### b.hp(2/-1) KDR / KD
 `sobat b.hp(4/1) | {s.hk s.mp(4/3) OR sobat b.hp(4/1)}`
@@ -209,18 +213,18 @@ The following headers include the advantage.
 
 ---
 ## Swing Out / Bullet Revolver
+Demonstration video:
+
+[![Guile oki: swing-out](https://img.youtube.com/vi/EixFM1xNCv0/0.jpg)](https://www.youtube.com/watch?v=EixFM1xNCv0)
+
 ### KDR / KD
 `b.lk throw | s.hk throw`
 
-`b.lk s.lp(5/4) | c.mp throw s.mp(6/5)`
-
-`b.lk s.mp(4/3) | boom s.mp(5/4)`
+`b.lk s.mp(4/3) | c.mp f.dash s.mp(5/4)`
 
 
 ### KDBR / KD
-`b.lk b.hp(4/1) | throw b.hp(4/1)`
-
-`b.lk b.hp(4/1) | s.hp s.mp(6/5)`
+**CNR** `b.lk b.hp(4/1) | {throw b.hp(4/1) OR s.hp s.mp(6/5)}`
 
 `b.lk {f.hp(4/-1) OR c.hp(4/-1)} | {f.hp b.hp(2/-1) OR sobat s.mp(6/5)}`
 
