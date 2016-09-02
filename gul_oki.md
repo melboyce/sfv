@@ -340,23 +340,19 @@ prudent to use a safer option.
 
 
 ### 1st Active Frame, KDR / KD
-**Late AA FK**: stick with `f.dash b.hp` - it's safe and strong.
-
 `f.dash s.mp(6/5) | {c.mp c.mp s.mp(5/4) ; c.mk s.lk s.mp(6/5)}`
 
-`f.dash b.hp(2/-1) | s.hp b.hp(3/0)` *1f gap*
+`f.dash b.hp(2/-1) | s.hp b.hp(3/0)` *1f gap, use for late AA FK*
 
 `f.dash s.lk(6/4) | s.mk s.mp s.mp(5/4)` *not as good as s.mp, but different*
 
 
 ### 1st Active Frame, KDBR / KD
-**Late AA FK**: looks like the best bet is `f.dash s.hk`.
-
 `f.dash {f.hp(6/1) ; b.lk(2/-2) ; c.hp(6/1)} | {b.lk b.hp(4/1) ; s.hk s.mp(4/3)}` *some 1f,2f gaps*
 
 `f.dash sobat(3/-1) | b.hp s.mp(6/5)` *great option if you read KD*
 
-`f.dash s.hk(1/-3) | {throw b.hp(2/-1) ; c.mk b.hp(3/0) ; s.hp s.mp(4/3) ; s.mp f.hp(6/1)}` *2f gap*
+`f.dash s.hk(1/-3) | {throw b.hp(2/-1) ; c.mk b.hp(3/0) ; s.hp s.mp(4/3) ; s.mp f.hp(6/1)}` *2f gap, use for late AA FK*
 
 
 ### 1st Airborne Frame, KDR / KD
