@@ -21,7 +21,7 @@ burn a requisite number of frames such that the pressure is frame perfect.
 Using the following setup as an example, let's walk through it to make sure
 everything is understood.
 
-`s.mp(4/3) | {s.hp s.mp(5/4) OR c.mk b.hp(4/1)}`
+`s.mp(4/3) | {s.hp s.mp(5/4) ; c.mk b.hp(4/1)}`
 
 This is a setup for c.hk (1st hit) KDR/KD - that is, the first hit of crouching
 heavy kick and quick-rise or no recovery. After scoring a hit off c.hk, with
@@ -83,7 +83,7 @@ might switch the sobat out for s.hk to eat the extra frames.
 
 ## Syntax
 * **pipe (|)** separates KDR/KDBR option from KD option
-* **{a OR b}** interchangeable options
+* **{a ; b ; c}** interchangeable options
 * **(4/3)** brackets indicate hit/block advantage
 * **1f gap** may suffix a setup - this means the pressure isn't meaty
 * **~** (tilde) represents "chain" timing (fast)
@@ -108,13 +108,13 @@ Demonstration video:
 ### KDR / KD
 `c.lp(4/2) | c.mp c.lp s.mp(4/3)`
 
-`s.mp(4/3) | {s.hp s.mp(5/4) OR c.mk b.hp(4/1)}` *1f gap*
+`s.mp(4/3) | {s.hp s.mp(5/4) ; c.mk b.hp(4/1)}` *1f gap*
 
 `s.lk(4/2) | b.hp s.mp(6/5)` *1f gap*
 
 
 ### KDBR / KD
-`b.hp(3/0) | {s.lp b.hp(4/1) OR s.lk s.mp(6/5)}`
+`b.hp(3/0) | {s.lp b.hp(4/1) ; s.lk s.mp(6/5)}`
 
 
 ---
@@ -138,7 +138,7 @@ some CC-specific options if that's your cup of tea.
 ### 1st hit (+52)
 `b.lk f.dash s.mp(6/5)`
 
-`b.lk s.mp {s.mp(4/3) OR throw}`
+`b.lk s.mp {s.mp(4/3) ; throw}`
 
 `b.lk s.lk b.hp(3/0)`
 
@@ -146,7 +146,7 @@ some CC-specific options if that's your cup of tea.
 ### 2nd hit (+70)
 `b.lk f.dash f.dash s.mp(6/5)`
 
-`b.lk boom {s.mp(4/3) OR throw}`
+`b.lk boom {s.mp(4/3) ; throw}`
 
 
 ---
@@ -156,13 +156,13 @@ Demonstration video:
 [![Guile oki: df.hk](https://img.youtube.com/vi/gcHQpWt7FoI/0.jpg)](https://www.youtube.com/watch?v=gcHQpWt7FoI)
 
 ### KDR / KD
-`{f.dash f.dash OR f.hk} s.mp(5/4) | c.mp f.dash s.mp(6/5)`
+`{f.dash f.dash ; f.hk} s.mp(5/4) | c.mp f.dash s.mp(6/5)`
 
 
 ### KDBR / KD
-`{f.dash f.dash OR f.hk} f.hp(5/0) | {s.hp b.hp(4/1) OR s.hp f.hp(4/-1)}`
+`{f.dash f.dash ; f.hk} f.hp(5/0) | {s.hp b.hp(4/1) ; s.hp f.hp(4/-1)}`
 
-`{f.dash f.dash OR f.hk} sobat(2/-2) | {sobat s.mp(6/5) OR s.hp b.hp(3/0)}`
+`{f.dash f.dash ; f.hk} sobat(2/-2) | {sobat s.mp(6/5) ; s.hp b.hp(3/0)}`
 
 
 ---
@@ -176,17 +176,17 @@ Demonstration video (partial, incomplete):
 [![Guile oki: b.hp](https://img.youtube.com/vi/Zsx5vOfANCQ/0.jpg)](https://www.youtube.com/watch?v=Zsx5vOfANCQ)
 
 ### b.hp(2/-1) KDR / KD
-`sobat b.hp(4/1) | {s.hk s.mp(4/3) OR sobat b.hp(4/1)}`
+`sobat b.hp(4/1) | {s.hk s.mp(4/3) ; sobat b.hp(4/1)}`
 
 `sobat f.hp(4/-1) | sobat f.hp(6/1)`
 
 
 ### b.hp(3/0) KDR / KD
-*Use b.hp(4/1)*
+*Use b.hp(4/1), subtract 1f from advantage*
 
 
 ### b.hp(4/1) KDR / KD
-`s.hk b.hp(2/-1) | {s.hp b.hp(3/0) OR b.hp s.mp(5/4)}` *1f gap*
+`s.hk b.hp(2/-1) | {s.hp b.hp(3/0) ; b.hp s.mp(5/4)}` *1f gap*
 
 `f.dash s.lk s.mp(6/5) | c.mp c.mp s.mp(5/4)`
 
@@ -198,17 +198,13 @@ Demonstration video (partial, incomplete):
 
 
 ### b.hp(3/0) KDBR / KD
-*Use b.hp(4/1)*
+*Use b.hp(4/1), subtract 1f from advantage*
 
 
 ### b.hp(4/1) KDBR / KD
-`f.dash c.mk s.mp(4/3) | s.hk s.mp(4/3)`
+`f.dash c.mk s.mp(4/3) | {s.hk s.mp(4/3) ; sobat b.hp}`
 
-`f.dash c.mk s.mp(4/3) | sobat b.hp(4/1)`
-
-`f.dash f.dash b.hp(4/1) | s.mk b.hp(4/1)`
-
-`f.dash f.dash b.hp(4/1) | s.hp s.mp(6/5)`
+`f.dash f.dash b.hp(4/1) | {s.mk b.hp(4/1) ; s.hp s.mp(6/5)}`
 
 
 ---
@@ -224,9 +220,9 @@ Demonstration video:
 
 
 ### KDBR / KD
-**CNR** `b.lk b.hp(4/1) | {throw b.hp(4/1) OR s.hp s.mp(6/5)}`
+**CNR** `b.lk b.hp(4/1) | {throw b.hp(4/1) ; s.hp s.mp(6/5)}`
 
-`b.lk {f.hp(4/-1) OR c.hp(4/-1)} | {f.hp b.hp(2/-1) OR sobat s.mp(6/5)}`
+`b.lk {f.hp(4/-1) ; c.hp(4/-1)} | {f.hp b.hp(2/-1) ; sobat s.mp(6/5)}`
 
 
 ---
@@ -239,7 +235,7 @@ Demonstration video:
 After this throw, Guile is *just* in range for a c.mp if they block or press a
 button - the timing is, however, manual.
 ### KDR / KD
-`s.hk(2/-2) | {s.mp b.hp(4/1) OR c.mk s.mp(6/5) OR f.dash c.hp(6/1)}`
+`s.hk(2/-2) | {s.mp b.hp(4/1) ; c.mk s.mp(6/5) ; f.dash c.hp(6/1)}`
 
 
 ---
@@ -261,7 +257,7 @@ a normal at the start to keep Guile a little safer.
 ### KDR / KD
 `c.lp sobat b.hp(4/1)` *KD only*
 
-`c.mp b.lk {s.lp(4/3) OR s.mp(4/3)}` *KD only, 1f gap for s.mp*
+`c.mp b.lk {s.lp(4/3) ; s.mp(4/3)}` *KD only, 1f gap for s.mp*
 
 `f.dash b.lk s.mp(5/4)` *KD only, unsafe vs. KDR*
 
@@ -287,7 +283,7 @@ only works at close range, but allows for some sterling pressure.  It's worth
 noting that ex.boom has, probably, the most esoteric setups as the advantage
 doesn't really suit Guile.
 ### KDR / KD
-`b.lk(early reset) {s.hp(8/-2) OR c.hp(3/-2)}` *reset (no KD)*
+`b.lk(early reset) {s.hp(8/-2) ; c.hp(3/-2)}` *reset (no KD)*
 
 `f.dash b.lk throw | s.hk throw` *2f gap on KDR, 1f gap on KD*
 
@@ -308,7 +304,6 @@ as follows (some exceptions apply for EX FK):
 * all FKs have some period of full invulnerability
 * all FKs start with throw invulnerability
 * all FKs start grounded
-* oki is only stable after a grounded FK
 * the most stable oki setups rely on the first active frame connecting
 * all FK strengths have the same KDR, KDBR, and KD advantages
 * hk.fk's 1st active frame is the farthest range of the 3
@@ -329,44 +324,69 @@ The takeaway is this:
 * always use hk.fk in grounded combos
 * always use lk.fk for standard AA (mk or hk for ranged AA)
 
-Okizeme off 1st active frame (AF1) is the most desirable situation, but
-knowledge of what to use for later hits is essential. Some practice and a keen
-eye are required.
+Okizeme off 1st active frame is the most desirable situation, but knowledge of
+what to use for later hits is essential. Some practice and a keen eye are
+required.
 
-The setups will be broken up into 3 versions: 1st active frame (AF1), 1st
-airborne frame (AB1), and last frame (LF).
+There are three main types of FK hits:
+* 1st active frame
+* 1st airborne frame
+* last possible grounded frame, that is, the latest Guile can hit a standing opponent
 
-Although there are a few frames between AF1 and AB1, AB1 setups should cover the gap handily, but bear the following in mind:
-* AF1 setups whiff for AB1
-* AB1 setups *may* whiff for LF
-* AB1 and LF setups are likely interruptible vs. AF1
+AA FK should usually be done with lk as it gains invulnerability the fastest
+and late AA lk.fk can, with some practice, become fully stable. Unfortunately,
+hitting with lk.fk's 1st active frame is tricky and ballsy - it may be more
+prudent to use a safer option. 
 
-### AF1 KDR / KD
-`f.dash s.mp(6/5) | {c.mp c.mp s.mp(5/4) OR c.mk s.lk s.mp(6/5)}`
 
-`f.dash b.hp(2/-1) | s.hp b.hp(3/0)` *1f gap, works for AB1*
+### 1st Active Frame, KDR / KD
+**Late AA FK**: stick with `f.dash b.hp` - it's safe and strong.
+
+`f.dash s.mp(6/5) | {c.mp c.mp s.mp(5/4) ; c.mk s.lk s.mp(6/5)}`
+
+`f.dash b.hp(2/-1) | s.hp b.hp(3/0)` *1f gap*
 
 `f.dash s.lk(6/4) | s.mk s.mp s.mp(5/4)` *not as good as s.mp, but different*
 
 
-### AF1 KDBR / KD
-`f.dash {f.hp(6/1) OR b.lk(2/-2) OR c.hp(6/1)} | {b.lk b.hp(4/1) OR s.hk s.mp(4/3)}` *some 1f,2f gaps*
+### 1st Active Frame, KDBR / KD
+**Late AA FK**: looks like the best bet is `f.dash s.hk`.
+
+`f.dash {f.hp(6/1) ; b.lk(2/-2) ; c.hp(6/1)} | {b.lk b.hp(4/1) ; s.hk s.mp(4/3)}` *some 1f,2f gaps*
 
 `f.dash sobat(3/-1) | b.hp s.mp(6/5)` *great option if you read KD*
 
-`f.dash s.hk(1/-3) | {throw b.hp(2/-1) OR c.mk b.hp(3/0) OR s.hp s.mp(4/3) OR s.mp f.hp(6/1)}` *2f gap, covers AB1*
+`f.dash s.hk(1/-3) | {throw b.hp(2/-1) ; c.mk b.hp(3/0) ; s.hp s.mp(4/3) ; s.mp f.hp(6/1)}` *2f gap*
+
+
+### 1st Airborne Frame, KDR / KD
+*WIP*
+
+
+### 1st Airborne Frame, KDBR / KD
+*WIP*
+
+
+### Last Frame
+*WIP*
 
 
 ---
 ## EX Flash Kick
-Okizeme play after an EX FK is more restricted than a regular FK, but there are
-still some solid options.
+ex.fk has somewhat restrictive okizeme in the mid-screen (which is a fair price
+to pay), but in the corner, it's very generous. Due to 1st frame
+invulnerability, late AA with ex.fk can pay the bills. Ensure any AA with ex.fk
+is done as late as possible.
 ### KDR / KD
-`f.dash b.hp(3/0) | {b.hp b.hp(2/-1) OR b.lk b.hp(4/1) OR s.hk s.mp(4/3)}`
+`f.dash b.hp(3/0) | {b.hp b.hp(2/-1) ; b.lk b.hp(4/1) ; s.hk s.mp(4/3)}`
 
 `f.dash s.hp(8/-2) | s.hk s.mp(6/5)`
 
 **CNR** `c.lp~c.lp throw | s.hk throw`
+
+**CNR** `s.mp s.mp(6/5) | {s.mp s.mp s.mp(5/4) ; f.hk b.hp(4/1)}`
+
+**CNR** `f.dash s.hp(8/-2) | s.hk s.mp(6/5)`
 
 
 ### KDBR / KD
@@ -386,4 +406,4 @@ in the corner.
 **CNR** `f.dash s.mp(4/3) | df.hk s.mp(5/4)`
 
 ### KDBR / KD
-**CNR** `f.dash b.hp(4/1) | {s.hp s.mp(6/5) OR throw b.hp(4/1)}`
+**CNR** `f.dash b.hp(4/1) | {s.hp s.mp(6/5) ; throw b.hp(4/1)}`
