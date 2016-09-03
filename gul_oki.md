@@ -1,4 +1,5 @@
 # Guile OKI / setplay
+## Introduction
 This is, hopefully, a comprehensive detailing of Guile's okizeme / setplay
 game.  Everything is safe on block, has been vetted for execution and
 usefulness, and considers the situation *after* the pressure tool. I've also
@@ -79,6 +80,25 @@ For example, knowing that an FK followed by `f.dash s.mp` is the limit for s.mp
 a good backup plan here. Another example might be knowing that `f.mk b.hp` is a
 valid follow-up, but the preceeding hit was meaty or late in some way. One
 might switch the sobat out for s.hk to eat the extra frames.
+
+
+## The Venerable Sonic Boom
+Although Guile players regularly use booms for pressure, true, frame tight boom
+okizeme is limited to the following knock-downs:
+* Swing-out (f.hp target combo ender)
+* Burn Straight (b.hp)
+
+### Swing Out Boom
+By executing hp.boom immediately after swing-out, no matter the quick recovery
+option your opponent chooses, you are at frame advantage and applying pressure
+with the boom simultaneously. On hit, Guile can continue to combo.
+
+### Burn Straight Boom
+After b.hp(cc), lp.boom is meaty on KDR, hp.boom is meaty on KDBR. This
+knock-down offers more flexibility for Guile as the advantage is higher. After
+the boom, f.dash leaves Guile at a significant advantage while the opponent
+blocks the boom. You can extend the block-stun with frame traps, setup a
+jump-in, use f.mp, whatever.
 
 
 ## Syntax
@@ -322,7 +342,7 @@ Reddit](https://www.reddit.com/r/SFV_GUILE/wiki/index)):
 
 The takeaway is this:
 * always use hk.fk in grounded combos
-* always use lk.fk for standard AA (mk or hk for ranged AA)
+* always use lk.fk for standard AA (mk or hk for ranged AA, use boom oki)
 
 Okizeme off 1st active frame is the most desirable situation, but knowledge of
 what to use for later hits is essential. Some practice and a keen eye are
