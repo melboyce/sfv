@@ -47,6 +47,26 @@ ex.fk.KDR  c.lp~c.lp,throw | s.hk,throw
 ex.fk.KDBR s.hp,throw | b.hp,throw
 
 
+VT TO CA:
+mid-screen: j.hk,c.mp xx boom xx VT xx f.dash,s.hp,c.mp xx boom*N b.lk CA => 490/480
+mid-screen: j.hk,c.mp xx boom xx VT xx f.dash,s.hp,c.mp xx boom*3 f.dash f.hp => 311/487
+mid-screen: j.hk,c.mp xx boom xx VT xx f.dash,s.hp,c.mp xx ex.boom*2 => 323/490
+
+
+SWINGOUT, HP.BOOM
+KDR: ~+24
+KDR: fdash,b.hp(2/-1)?
+KDBR:
+KD: fdash,sobat,s.mp(6/5)?
+
+
+BURN STRAIGHT, BOOM
+KDR: ~+32
+KDR: lp.boom,fdash,<traps>
+KDBR: hp.boom,fdash,<traps>
+
+
+TODO!!! OKI VS JUMP-TECH-OS
 
 
 DIFF BETWEEN KDR AND KDBR
