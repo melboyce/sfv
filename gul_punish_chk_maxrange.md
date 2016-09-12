@@ -27,3 +27,4 @@ a list of defaults - they will work at any range.
 | Guile | ● |  | ● |  | ● | ● | ● | ● | ● | ● | ● | ● |
 | Ibuki | ● |  | ● |  | ● | ● |  |  |  | ? | ● |  |
 | Juri | ● |  | ● |  | ● |  |  |  |  |  | ● |  |
+| Karin |  |  | ● | ● |  |  |  |  | ● |  |  |  |
