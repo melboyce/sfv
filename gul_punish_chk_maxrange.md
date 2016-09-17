@@ -11,6 +11,7 @@ a list of defaults - they will work at any range.
 * bazooka knee and sobat are listed as b.lk and f.mk respectively
 
 ## Key
+* the *dmg/adv* row details the damage and the frame advantage on hit of the punish
 * an empty cell means that punish whiffs
 * ■ means the punish connects
 * □ signifies the punish will work if the c.hk is not precisely max range
@@ -19,7 +20,7 @@ a list of defaults - they will work at any range.
 ## Data
 |    vs.   | b.lk | c.mk | f.mk | s.hk | c.hk | b.hp | boom | ex.boom | lk.fk | mk.fk | hk.fk | ex.fk |
 |---------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:-------:|:-----:|:-----:|:-----:|:-----:|
-| *DMG/ADV*|50/-2 |      |      |      |      |      |      |         |       |       |       |       |
+| dmg/adv  |50/-2 |60/1  |60/2  |80/1  |90/KD |80/2  |50/8  |100/KD   |120/KD |120/KD |120/KD |150/KD |
 |     Alex | ■    |      | ■    |      | ■    | ■    | ■    | ■       | ■     | ■     | ■     |       |
 |   Birdie |      |      | ■    |      |      |      |      |         |       |       |       |       |
 |    Boxer | ■    |      | ■    | ■    | ■    | ■    | ■    | ■       | ■     | ■     | ■     |       |
