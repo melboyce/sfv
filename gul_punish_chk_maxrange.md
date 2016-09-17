@@ -17,6 +17,7 @@ a list of defaults - they will work at any range.
 
 --
 ## Data
+|          | 50/-2|      |      |      |      |      |      |         |       |       |       |       |
 |    vs.   | b.lk | c.mk | f.mk | s.hk | c.hk | b.hp | boom | ex.boom | lk.fk | mk.fk | hk.fk | ex.fk |
 |---------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:-------:|:-----:|:-----:|:-----:|:-----:|
 |     Alex | ■    |      | ■    |      | ■    | ■    | ■    | ■       | ■     | ■     | ■     |       |
