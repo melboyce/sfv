@@ -12,31 +12,31 @@ a list of defaults - they will work at any range.
 
 ## Key
 * an empty cell means that punish whiffs
-* ● means the punish connects
-* ◐ signifies the punish will work if the c.hk is not precisely max range
+* ■ means the punish connects
+* □ signifies the punish will work if the c.hk is not precisely max range
 
 --
 ## Data
 | vs. | b.lk | c.mk | f.mk | s.hk | c.hk | b.hp | boom | ex.boom | lk.fk | mk.fk | hk.fk | ex.fk |
 |---------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:-------:|:-----:|:-----:|:-----:|:-----:|
-| Alex | ● |  | ● |  | ● | ● | ● | ● | ● | ● | ● |  |
-| Birdie |  |  | ● |  |  |  |  |  |  |  |  |  |
-| Boxer | ● |  | ● | ● | ● | ● | ● | ● | ● | ● | ● |  |
-| Cammy | ● |  | ● |  | ● | ● | ● |  | ● | ● | ● | ● |
-| Chun | ● | ● | ● |  | ● | ● | ● | ● | ● | ? | ● | ● |
-| Claw | ● | ● |  |  | ● | ● |  |  | ● | ● | ● | ● |
+| Alex | ■ |  | ■ |  | ■ | ■ | ■ | ■ | ■ | ■ | ■ |  |
+| Birdie |  |  | ■ |  |  |  |  |  |  |  |  |  |
+| Boxer | ■ |  | ■ | ■ | ■ | ■ | ■ | ■ | ■ | ■ | ■ |  |
+| Cammy | ■ |  | ■ |  | ■ | ■ | ■ |  | ■ | ■ | ■ | ■ |
+| Chun | ■ | ■ | ■ |  | ■ | ■ | ■ | ■ | ■ | ? | ■ | ■ |
+| Claw | ■ | ■ |  |  | ■ | ■ |  |  | ■ | ■ | ■ | ■ |
 | Dhalsim |  |  |  |  |  |  |  |  |  |  |  |  |
 | Dictator |  |  |  |  |  |  |  |  |  | ? |  |  |
-| FANG | ● | ● | ● |  | ● | ● | ● | ● | ● | ● | ● | ● |
-| Guile | ● |  | ● |  | ● | ● | ● | ● | ● | ● | ● | ● |
-| Ibuki | ● |  | ● |  | ● | ● |  |  |  | ? | ● |  |
-| Juri | ● |  | ● |  | ● |  |  |  |  |  | ● |  |
-| Karin |  |  | ● | ● |  |  |  |  | ● |  |  |  |
-| Ken | ● | ● | ● |  | ● | ● | ● | ● | ● | ● | ● |  |
-| Laura | ● |  | ● |  | ● | ● |  |  |  | ● | ● |  |
-| Nash | ● |  | ● |  | ◐ |  |  |  |  |  |  |  |
-| Necalli | ● | ● |  |  | ● | ● |  |  | ● | ● | ● | ● |
-| R Mika | ● | ● |  |  | ● | ● | ● | ● | ● | ● | ● | ● |
-| Rashid | ● |  | ● |  | ● | ● |  |  |  | ● | ● |  |
-| Ryu | ● | ● | ● |  | ● | ● |  |  |  | ● | ● |  |
-| Zangief | ● | ● |  |  | ● | ● | ● | ● | ● | ● | ● | ● |
+| FANG | ■ | ■ | ■ |  | ■ | ■ | ■ | ■ | ■ | ■ | ■ | ■ |
+| Guile | ■ |  | ■ |  | ■ | ■ | ■ | ■ | ■ | ■ | ■ | ■ |
+| Ibuki | ■ |  | ■ |  | ■ | ■ |  |  |  | ? | ■ |  |
+| Juri | ■ |  | ■ |  | ■ |  |  |  |  |  | ■ |  |
+| Karin |  |  | ■ | ■ |  |  |  |  | ■ |  |  |  |
+| Ken | ■ | ■ | ■ |  | ■ | ■ | ■ | ■ | ■ | ■ | ■ |  |
+| Laura | ■ |  | ■ |  | ■ | ■ |  |  |  | ■ | ■ |  |
+| Nash | ■ |  | ■ |  | □ |  |  |  |  |  |  |  |
+| Necalli | ■ | ■ |  |  | ■ | ■ |  |  | ■ | ■ | ■ | ■ |
+| R Mika | ■ | ■ |  |  | ■ | ■ | ■ | ■ | ■ | ■ | ■ | ■ |
+| Rashid | ■ |  | ■ |  | ■ | ■ |  |  |  | ■ | ■ |  |
+| Ryu | ■ | ■ | ■ |  | ■ | ■ |  |  |  | ■ | ■ |  |
+| Zangief | ■ | ■ |  |  | ■ | ■ | ■ | ■ | ■ | ■ | ■ | ■ |
