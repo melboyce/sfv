@@ -15,7 +15,8 @@ a list of defaults - they will work at any range.
 * ● means the punish connects
 * ◐ signifies the punish will work if the c.hk is not precisely max range
 
-# Data
+--
+## Data
 | vs. | b.lk | c.mk | f.mk | s.hk | c.hk | b.hp | boom | ex.boom | lk.fk | mk.fk | hk.fk | ex.fk |
 |---------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:-------:|:-----:|:-----:|:-----:|:-----:|
 | Alex | ● |  | ● |  | ● | ● | ● | ● | ● | ● | ● |  |
