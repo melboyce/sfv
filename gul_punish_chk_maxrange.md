@@ -20,7 +20,7 @@ a list of defaults - they will work at any range.
 
 |    vs.   | b.lk | f.mk | s.hk | c.hk | b.hp | boom | ex.boom | lk.fk | mk.fk | hk.fk | ex.fk |
 |---------:|:----:|:----:|:----:|:----:|:----:|:----:|:-------:|:-----:|:-----:|:-----:|:-----:|
-|  score   | 13   | 14   | 2    | 14   | 7    | 1    | 2       | 6     | 7     |       |       |
+|  score   | 13   | 14   | 2    | 14   | 7    | 1    | 2       | 6     | 7     | 11    | 6     |
 | dmg/adv  |50/-2 |60/2  |80/1  |90/KD |80/2  |50/8  |100/KD   |120/KD |120/KD |120/KD |150/KD |
 |     Alex | ■    | ■    |      | ■    | ■    |      |         |       |       | ■     |       |
 |   Birdie |      |      |      |      |      |      |         |       |       |       |       |
@@ -39,7 +39,7 @@ a list of defaults - they will work at any range.
 |    Laura | ■    | ■    |      | ■    | ■    |      |         |       |       |       |       |
 |     Nash |      | ■    |      |      |      |      |         |       |       |       |       |
 |  Necalli | ■    |      |      | ■    | ■    |      |         | ■     | ■     | ■     | ■     |
-|   R Mika |      |      |      |      |      |      |         | ■     | ■     | ■     | ■     |
-|   Rashid |      | ■    |      | ■    |      |      |         |       |       | ■     |       |
+|   R Mika |      |      |      |      |      |      |         | ■     | ■     |       | ■     |
+|   Rashid |      | ■    |      | ■    |      |      |         |       |       |       |       |
 |      Ryu | ■    | ■    |      | ■    |      |      |         |       |       | ■     |       |
 |  Zangief | ■    |      |      | ■    | ■    |      |         | ■     | ■     | ■     | ■     |
