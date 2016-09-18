@@ -11,6 +11,7 @@ a list of defaults - they will work at any range.
 * bazooka knee and sobat are listed as b.lk and f.mk respectively
 
 ## Key
+* the *score* row is a sum of the number of characters the punish works on
 * the *dmg/adv* row details the damage and the frame advantage on hit of the punish
 * an empty cell means that punish whiffs or will be blocked
 * ■ signifies that the punish will connect
@@ -19,26 +20,26 @@ a list of defaults - they will work at any range.
 
 |    vs.   | b.lk | f.mk | s.hk | c.hk | b.hp | boom | ex.boom | lk.fk | mk.fk | hk.fk | ex.fk |
 |---------:|:----:|:----:|:----:|:----:|:----:|:----:|:-------:|:-----:|:-----:|:-----:|:-----:|
-|  score   |13    |14    |2     |14    |14    |9     |7        |11     |13     |15     |7      |
+|  score   |13    |14    |2     |14    |      |      |         |       |       |       |       |
 | dmg/adv  |50/-2 |60/2  |80/1  |90/KD |80/2  |50/8  |100/KD   |120/KD |120/KD |120/KD |150/KD |
-|     Alex | ■    | ■    |      | ■    | ■    | ■    | ■       | ■     | ■     | ■     |       |
+|     Alex | ■    | ■    |      | ■    | ■    |      |         |       |       | ■     |       |
 |   Birdie |      |      |      |      |      |      |         |       |       |       |       |
-|    Boxer | ■    | ■    | ■    | ■    | ■    | ■    | ■       | ■     | ■     | ■     |       |
-|    Cammy | ■    | ■    |      | ■    | ■    | ■    |         | ■     | ■     | ■     | ■     |
-|     Chun | ■    | ■    |      |      |      | ■    |         |       |       |       |       |
-|     Claw |      |      |      | ■    | ■    |      |         | ■     | ■     | ■     | ■     |
+|    Boxer | ■    | ■    | ■    | ■    |      |      | ■       |       |       | ■     |       |
+|    Cammy | ■    | ■    |      | ■    |      |      |         |       |       | ■     | ■     |
+|     Chun | ■    | ■    |      |      |      |      |         |       |       |       |       |
+|     Claw |      |      |      | ■    |      |      |         | ■     | ■     | ■     | ■     |
 |  Dhalsim |      |      |      |      |      |      |         |       |       |       |       |
 | Dictator |      |      |      |      |      |      |         |       |       |       |       |
-|     FANG | ■    | ■    |      | ■    | ■    | ■    | ■       | ■     | ■     | ■     | ■     |
+|     FANG | ■    | ■    |      | ■    | ■    |      |         |       | ■     | ■     | ■     |
 |    Guile | ■    | ■    |      | ■    | ■    | ■    | ■       | ■     | ■     | ■     | ■     |
-|    Ibuki | ■    | ■    |      | ■    | ■    |      |         |       |       | ■     |       |
+|    Ibuki | ■    | ■    |      | ■    |      |      |         |       |       | ■     |       |
 |     Juri | ■    | ■    |      | ■    |      |      |         |       |       | ■     |       |
 |    Karin |      | ■    | ■    |      |      |      |         | ■     |       |       |       |
-|      Ken | ■    | ■    |      | ■    | ■    | ■    | ■       | ■     | ■     | ■     |       |
-|    Laura | ■    | ■    |      | ■    | ■    |      |         |       | ■     | ■     |       |
+|      Ken | ■    | ■    |      | ■    | ■    |      |         |       | ■     | ■     |       |
+|    Laura | ■    | ■    |      | ■    | ■    |      |         |       |       |       |       |
 |     Nash |      | ■    |      |      |      |      |         |       |       |       |       |
 |  Necalli | ■    |      |      | ■    | ■    |      |         | ■     | ■     | ■     | ■     |
-|   R Mika |      |      |      |      | ■    | ■    | ■       | ■     | ■     | ■     | ■     |
-|   Rashid |      | ■    |      | ■    | ■    |      |         |       | ■     | ■     |       |
-|      Ryu | ■    | ■    |      | ■    | ■    |      |         |       | ■     | ■     |       |
-|  Zangief | ■    |      |      | ■    | ■    | ■    | ■       | ■     | ■     | ■     | ■     |
+|   R Mika |      |      |      |      |      |      |         | ■     | ■     | ■     | ■     |
+|   Rashid |      | ■    |      | ■    |      |      |         |       |       | ■     |       |
+|      Ryu | ■    | ■    |      | ■    |      |      |         |       |       | ■     |       |
+|  Zangief | ■    |      |      | ■    | ■    |      |         | ■     | ■     | ■     | ■     |
