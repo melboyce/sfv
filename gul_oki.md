@@ -121,10 +121,6 @@ jump-in, use f.mp, whatever.
 
 ---
 ## Crouching HK, 1st hit
-Demonstration video:
-
-[![Guile oki: c.hk](https://img.youtube.com/vi/tDaqAcJPcdM/0.jpg)](https://www.youtube.com/watch?v=tDaqAcJPcdM)
-
 ### KDR / KD
 `c.lp(4/2) | c.mp c.lp s.mp(4/3)`
 
@@ -139,10 +135,6 @@ Demonstration video:
 
 ---
 ## Crouching HK, 2nd hit
-Demonstration video:
-
-[![Guile oki: c.hk](https://img.youtube.com/vi/8iqDppev_5U/0.jpg)](https://www.youtube.com/watch?v=8iqDppev_5U)
-
 There are, perhaps coincidentally, 18 frames of extra knock-down advantage for
 hitting with the second hit. Guile's forward dash is 18 frames.
 
@@ -171,10 +163,6 @@ some CC-specific options if that's your cup of tea.
 
 ---
 ## Guile High Kick (df.hk)
-Demonstration video:
-
-[![Guile oki: df.hk](https://img.youtube.com/vi/gcHQpWt7FoI/0.jpg)](https://www.youtube.com/watch?v=gcHQpWt7FoI)
-
 ### KDR / KD
 `{f.dash f.dash ; f.hk} s.mp(5/4) | c.mp f.dash s.mp(6/5)`
 
@@ -190,10 +178,6 @@ Demonstration video:
 The following setups are for crush-counter b.hp on the first frame. If you use
 the b.hp meaty and get a CC, the advantage will change by either 1 or 2 frames.
 The following headers include the advantage.
-
-Demonstration video (partial, incomplete):
-
-[![Guile oki: b.hp](https://img.youtube.com/vi/Zsx5vOfANCQ/0.jpg)](https://www.youtube.com/watch?v=Zsx5vOfANCQ)
 
 ### b.hp(2/-1) KDR / KD
 `sobat b.hp(4/1) | {s.hk s.mp(4/3) ; sobat b.hp(4/1)}`
@@ -229,10 +213,6 @@ Demonstration video (partial, incomplete):
 
 ---
 ## Swing Out / Bullet Revolver
-Demonstration video:
-
-[![Guile oki: swing-out](https://img.youtube.com/vi/EixFM1xNCv0/0.jpg)](https://www.youtube.com/watch?v=EixFM1xNCv0)
-
 ### KDR / KD
 `b.lk throw | s.hk throw`
 
@@ -245,12 +225,10 @@ Demonstration video:
 `b.lk {f.hp(4/-1) ; c.hp(4/-1)} | {f.hp b.hp(2/-1) ; sobat s.mp(6/5)}`
 
 
----
 ## Dragon Suplex (throw)
 ### KDR / KD
 
 
----
 ## Judo Throw (b.throw)
 After this throw, Guile is *just* in range for a c.mp if they block or press a
 button - the timing is, however, manual.
@@ -258,7 +236,6 @@ button - the timing is, however, manual.
 `s.hk(2/-2) | {s.mp b.hp(4/1) ; c.mk s.mp(6/5) ; f.dash c.hp(6/1)}`
 
 
----
 ## Flying Mare (throw(air))
 Depending on circumstance, this throw either leaves Guile at +28 or +30 for
 KDR. If the means by which this effect applies is discovered, I will post
@@ -270,7 +247,6 @@ detail of it here.
 `f.dash c.hp(6/1) | c.mk b.hp(4/1)` *+30*
 
 
----
 ## Flying Buster Drop (b.throw(air))
 There are no safe options against KDR, only KD - thus, some of these setups use
 a normal at the start to keep Guile a little safer.
@@ -282,7 +258,6 @@ a normal at the start to keep Guile a little safer.
 `f.dash b.lk s.mp(5/4)` *KD only, unsafe vs. KDR*
 
 
----
 ## Reverse Back Knuckle (V-Reversal)
 ### KDR / KD
 `f.dash b.hp(4/1) | sobat b.hp(4/1)`
@@ -296,7 +271,6 @@ a normal at the start to keep Guile a little safer.
 `f.dash f.hk(3/-1) | b.lk s.mp(4/3)` *1f gap*
 
 
----
 ## EX Sonic Boom / Sonic Tempest
 A common follow-up for ex.boom is b.lk which can air-reset the opponent. This
 only works at close range, but allows for some sterling pressure.  It's worth
@@ -316,7 +290,6 @@ doesn't really suit Guile.
 `f.dash f.dash f.hk(5/1) | sobat s.mp(6/5)`
 
 
----
 ## Flash Kick (light, medium, heavy)
 There are some real subtlties to Guile's Flash Kick in SFV, but the summary is
 as follows (some exceptions apply for EX FK):
@@ -329,9 +302,9 @@ as follows (some exceptions apply for EX FK):
 * hk.fk's 1st active frame is the farthest range of the 3
 * lk.fk starts up and gains full invulnerability the quickest
 
-Here is [TOOLASSISTED's](https://twitter.com/TOOLASSlSTED) flash kick chart
+Here is [TOOLASSISTED's](http://twitter.com/TOOLASSlSTED) flash kick chart
 (taken from TOOLASSISTED's [SFV Guile Wiki on
-Reddit](https://www.reddit.com/r/SFV_GUILE/wiki/index)):
+Reddit](http://www.reddit.com/r/SFV_GUILE/wiki/index)):
 
 | FLASH KICK | START UP | PROJ INV | ALL INV | GROUND | THROW INV |
 |:----------:|:--------:|:--------:|:-------:|:------:|:---------:|
@@ -387,7 +360,6 @@ prudent to use a safer option.
 *WIP*
 
 
----
 ## EX Flash Kick
 ex.fk has somewhat restrictive okizeme in the mid-screen (which is a fair price
 to pay), but in the corner, it's very generous. Due to 1st frame
@@ -411,7 +383,6 @@ is done as late as possible.
 **CNR** `s.hp throw | b.hp throw`
 
 
----
 ## Sonic Hurricane
 These setups, for now at least, only focus on a grounded hit from Sonic
 Hurricane. Due to the distance from opponent after knock-down, they only work
