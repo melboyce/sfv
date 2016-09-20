@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding: 10px;
+	font-family: monospace;
+	background: white url('sfmovie-jcvd-guile.jpg') top left;
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
+
+h1,h2,h3,p,ul {
+	margin: 0px;
+	padding: 10px;
+	width: 640px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+h1,h2 {
+	padding-top: 10px;
+}
+
+table {
+	min-width: 660px;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-collapse: collapse;
+}
+/* table tr:nth-child(1) { color: grey; } */
+/* table tr:nth-child(2) { color: grey; } */
+table tr.header {
+	background-color: rgba(255, 255, 255, 0.9);
+	color: black;
+	font-weight: bold;
+}
+table tr.odd {
+	background-color: rgba(220, 220, 220, 0.9);
+}
+th,td {
+	border: 0px none;
+	padding: 1ex;
+}
+td:first-child {
+	font-weight: bold;
+}
+tr.header th {
+	border-bottom: 1px solid #777;
+}
