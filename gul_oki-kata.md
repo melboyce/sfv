@@ -6,6 +6,19 @@ goal of mastering these kata is to ensure that your muscle memory can execute
 frame-perfect okizeme on demand. This should free your mind to focus on more
 important things.
 
+## Settings
+Enter training mode and set the dummy up as follows:
+
+* **State** Stand
+* **Guard** After First Attack
+* **Recovery** Normal Recovery (or Back Recovery as appropriate)
+* **Counter** Normal
+* **Stun** No Stun
+
+Record a 3 frame normal and use this as the wake-up action.
+
+Consider also setting all gauges to infinite.
+
 
 ## Quick-rise
 
