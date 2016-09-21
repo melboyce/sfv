@@ -2,7 +2,6 @@
 
 dst=~/syngin.net/sfv
 
-pandoc -s -c pandoc.css --self-contained gul_landing.md -o $dst/index.html
 pandoc -s -c pandoc.css --self-contained gul_oki.md -o $dst/oki.html
 pandoc -s -c pandoc.css --self-contained gul_punish_chk_maxrange.md -o $dst/punish-chk.html
 pandoc -s -c pandoc.css --self-contained gul_top-players.md -o $dst/top-players.html
