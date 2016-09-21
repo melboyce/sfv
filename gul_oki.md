@@ -7,9 +7,6 @@ tried to consider rhythm - for example, two forward dashes is more prone to
 execution error than two medium or heavy normals or a dash followed by a
 normal.
 
-*Note: do let me know if you find something that feels or seems hinky so I can
-investigate.*
-
 As with all frame-perfect setups, execution must be on point and there is wild
 fluidity when trying to setup pressure after AA - you must manually execute AA
 oki setups.  
@@ -119,8 +116,12 @@ jump-in, use f.mp, whatever.
 * s.mk and whiffed throw both total at 24f.
 
 
----
 ## Crouching HK, 1st hit
+
+<p class="yt">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tDaqAcJPcdM" frameborder="0" allowfullscreen></iframe>
+</p>
+
 ### KDR / KD
 `c.lp(4/2) | c.mp c.lp s.mp(4/3)`
 
@@ -133,7 +134,6 @@ jump-in, use f.mp, whatever.
 `b.hp(3/0) | {s.lp b.hp(4/1) ; s.lk s.mp(6/5)}`
 
 
----
 ## Crouching HK, 2nd hit
 There are, perhaps coincidentally, 18 frames of extra knock-down advantage for
 hitting with the second hit. Guile's forward dash is 18 frames.
@@ -141,12 +141,16 @@ hitting with the second hit. Guile's forward dash is 18 frames.
 Thus, if you score a knock-down with the second hit of c.hk, dash forward and
 apply a first hit setup from the previous section.
 
+<p class="yt">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8iqDppev_5U" frameborder="0" allowfullscreen></iframe>
+</p>
 
----
+
 ## Crouching HK, Crush Counter
-*Note: Opponent cannot quick recover.*
+*Opponent cannot quick recover.*
 Obviously, this is just a KD scenario, so the above setups apply. Below are
 some CC-specific options if that's your cup of tea.
+
 ### 1st hit (+52)
 `b.lk f.dash s.mp(6/5)`
 
@@ -161,8 +165,12 @@ some CC-specific options if that's your cup of tea.
 `b.lk boom {s.mp(4/3) ; throw}`
 
 
----
 ## Guile High Kick (df.hk)
+
+<p class="yt">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gcHQpWt7FoI" frameborder="0" allowfullscreen></iframe>
+</p>
+
 ### KDR / KD
 `{f.dash f.dash ; f.hk} s.mp(5/4) | c.mp f.dash s.mp(6/5)`
 
@@ -173,7 +181,6 @@ some CC-specific options if that's your cup of tea.
 `{f.dash f.dash ; f.hk} sobat(2/-2) | {sobat s.mp(6/5) ; s.hp b.hp(3/0)}`
 
 
----
 ## Burn Straight, Crush Counter (b.hp)
 The following setups are for crush-counter b.hp on the first frame. If you use
 the b.hp meaty and get a CC, the advantage will change by either 1 or 2 frames.
@@ -211,8 +218,12 @@ The following headers include the advantage.
 `f.dash f.dash b.hp(4/1) | {s.mk b.hp(4/1) ; s.hp s.mp(6/5)}`
 
 
----
 ## Swing Out / Bullet Revolver
+
+<p class="yt">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EixFM1xNCv0" frameborder="0" allowfullscreen></iframe>
+</p>
+
 ### KDR / KD
 `b.lk throw | s.hk throw`
 
@@ -232,6 +243,7 @@ The following headers include the advantage.
 ## Judo Throw (b.throw)
 After this throw, Guile is *just* in range for a c.mp if they block or press a
 button - the timing is, however, manual.
+
 ### KDR / KD
 `s.hk(2/-2) | {s.mp b.hp(4/1) ; c.mk s.mp(6/5) ; f.dash c.hp(6/1)}`
 
@@ -240,8 +252,8 @@ button - the timing is, however, manual.
 Depending on circumstance, this throw either leaves Guile at +28 or +30 for
 KDR. If the means by which this effect applies is discovered, I will post
 detail of it here.
-### KDR / KD
 
+### KDR / KD
 `f.dash b.hp(4/1)` *+28*
 
 `f.dash c.hp(6/1) | c.mk b.hp(4/1)` *+30*
@@ -250,6 +262,7 @@ detail of it here.
 ## Flying Buster Drop (b.throw(air))
 There are no safe options against KDR, only KD - thus, some of these setups use
 a normal at the start to keep Guile a little safer.
+
 ### KDR / KD
 `c.lp sobat b.hp(4/1)` *KD only*
 
@@ -276,6 +289,7 @@ A common follow-up for ex.boom is b.lk which can air-reset the opponent. This
 only works at close range, but allows for some sterling pressure.  It's worth
 noting that ex.boom has, probably, the most esoteric setups as the advantage
 doesn't really suit Guile.
+
 ### KDR / KD
 `b.lk(early reset) {s.hp(8/-2) ; c.hp(3/-2)}` *reset (no KD)*
 
@@ -365,6 +379,7 @@ ex.fk has somewhat restrictive okizeme in the mid-screen (which is a fair price
 to pay), but in the corner, it's very generous. Due to 1st frame
 invulnerability, late AA with ex.fk can pay the bills. Ensure any AA with ex.fk
 is done as late as possible.
+
 ### KDR / KD
 `f.dash b.hp(3/0) | {b.hp b.hp(2/-1) ; b.lk b.hp(4/1) ; s.hk s.mp(4/3)}`
 
@@ -387,6 +402,7 @@ is done as late as possible.
 These setups, for now at least, only focus on a grounded hit from Sonic
 Hurricane. Due to the distance from opponent after knock-down, they only work
 in the corner.
+
 ### KDR / KD
 **CNR** `f.dash s.lp(5/4) | s.mp throw s.mp(6/5)`
 
