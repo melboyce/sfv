@@ -56,3 +56,8 @@ p.yt,p.tv {
 	text-align: left;
 	min-width: 640px;
 }
+
+ul {
+	list-style-position: inside;
+	list-style-type: katakana;
+}
