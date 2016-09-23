@@ -59,5 +59,8 @@ p.yt,p.tv {
 
 ul {
 	list-style-position: inside;
-	list-style-type: katakana;
+	list-style-type: square;
+}
+li {
+	padding: 0px;
 }
