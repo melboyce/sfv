@@ -42,4 +42,5 @@ a list of defaults - they will work at any range.
 |   R Mika |      |      |      |      |      |      |         | ■     | ■     |       | ■     |
 |   Rashid |      | ■    |      | ■    |      |      |         |       |       |       |       |
 |      Ryu | ■    | ■    |      | ■    |      |      |         |       |       | ■     |       |
+|    Urien | ■    | ■    |      | ■    |      |      |         |       |       | ■     |       |
 |  Zangief | ■    |      |      | ■    | ■    |      |         | ■     | ■     | ■     | ■     |
