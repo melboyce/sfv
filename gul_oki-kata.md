@@ -23,7 +23,7 @@ Consider also setting all gauges to infinite.
 ## Quick-rise
 
 <p class="yt">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5umP_zk1ork" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9yD0Nku9r8k" frameborder="0" allowfullscreen></iframe>
 </p>
 
 
