@@ -1,3 +1,5 @@
+<a class="back" href="/">&ltrif; BACK TO LANDING PAGE</a>
+
 # Okizeme Kata
 
 In Japanese martial arts, patterns are referred to as Kata (lit. form). I have

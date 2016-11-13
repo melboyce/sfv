@@ -66,6 +66,12 @@ KDR: lp.boom,fdash,<traps>
 KDBR: hp.boom,fdash,<traps>
 
 
+KATA:
+[cnr]c.hk,s.mp,c.mp,boom,c.mp,boom,df.hk -> f.dash,f.dash,s.mp,swing-out -> b.lk,b.throw ->
+     s.hk,c.lp,hk.fk -> f.dash,b.hp(cc) -> f.mk f.hp(cc) -> f.dash,s.hp,c.mp,fk ->
+     s.mp,c.mp,ex.boom -> f.dash,s.mk,c.mp...
+
+
 TODO!!! OKI VS JUMP-TECH-OS
 
 

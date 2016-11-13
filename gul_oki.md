@@ -1,3 +1,5 @@
+<a class="back" href="/">&ltrif; BACK TO LANDING PAGE</a>
+
 # Guile OKI / setplay
 ## Introduction
 This is, hopefully, a comprehensive detailing of Guile's okizeme / setplay
@@ -9,7 +11,7 @@ normal.
 
 As with all frame-perfect setups, execution must be on point and there is wild
 fluidity when trying to setup pressure after AA - you must manually execute AA
-oki setups.  
+oki setups.
 
 Some setups will only work in the corner. It should be obvious which ones - I
 may call it out. Or not.
@@ -82,20 +84,31 @@ might switch the sobat out for s.hk to eat the extra frames.
 ## The Venerable Sonic Boom
 Although Guile players regularly use booms for pressure, true, frame tight boom
 okizeme is limited to the following knock-downs:
+
 * Swing-out (f.hp target combo ender)
 * Burn Straight (b.hp)
 
 ### Swing Out Boom
 By executing hp.boom immediately after swing-out, no matter the quick recovery
 option your opponent chooses, you are at frame advantage and applying pressure
-with the boom simultaneously. On hit, Guile can continue to combo.
+with the boom simultaneously. On hit, Guile can continue to combo. Guile is
+also safe from most reversal options.
+
+<p class="yt">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bx6641WR1n0" frameborder="0" allowfullscreen></iframe>
+</p>
+
 
 ### Burn Straight Boom
 After b.hp(cc), lp.boom is meaty on KDR, hp.boom is meaty on KDBR. This
 knock-down offers more flexibility for Guile as the advantage is higher. After
 the boom, f.dash leaves Guile at a significant advantage while the opponent
 blocks the boom. You can extend the block-stun with frame traps, setup a
-jump-in, use f.mp, whatever.
+jump-in, or engage in shenanigans.
+
+<p class="yt">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oobC-UpncoY" frameborder="0" allowfullscreen></iframe>
+</p>
 
 
 ## Syntax
@@ -182,12 +195,20 @@ some CC-specific options if that's your cup of tea.
 
 
 ## Burn Straight, Crush Counter (b.hp)
-The following setups are for crush-counter b.hp on the first frame. If you use
-the b.hp meaty and get a CC, the advantage will change by either 1 or 2 frames.
-The following headers include the advantage.
+Reliable okizeme after a CC Burn Straight comes after contact on the first
+active frame.  Meaty CC hits will, as expected, change the advantage for
+follow-ups, so adjust as required.  The following setups indicate the
+advantage for the Burn Straight in the header.
+
+For example, after a `b.hp(2/-1) CC`, `sobat b.hp` leaves Guile at `4/1`, so
+the oki follow-up will change (i.e., `sobat b.hp` will not work a second time).
+
+<p class="yt">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IF_CoeDN09I" frameborder="0" allowfullscreen></iframe>
+</p>
 
 ### b.hp(2/-1) KDR / KD
-`sobat b.hp(4/1) | {s.hk s.mp(4/3) ; sobat b.hp(4/1)}`
+`sobat b.hp(4/1) | s.hk s.mp(4/3)`
 
 `sobat f.hp(4/-1) | sobat f.hp(6/1)`
 
@@ -242,7 +263,12 @@ The following headers include the advantage.
 
 ## Judo Throw (b.throw)
 After this throw, Guile is *just* in range for a c.mp if they block or press a
-button - the timing is, however, manual.
+button - the timing is, however, manual. Guile can also walk *slightly*
+forward for another throw attempt.
+
+<p class="yt">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JkHC8Tbg9ds" frameborder="0" allowfullscreen></iframe>
+</p>
 
 ### KDR / KD
 `s.hk(2/-2) | {s.mp b.hp(4/1) ; c.mk s.mp(6/5) ; f.dash c.hp(6/1)}`
@@ -272,6 +298,11 @@ a normal at the start to keep Guile a little safer.
 
 
 ## Reverse Back Knuckle (V-Reversal)
+
+<p class="yt">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MORFt6WOEvk" frameborder="0" allowfullscreen></iframe>
+</p>
+
 ### KDR / KD
 `f.dash b.hp(4/1) | sobat b.hp(4/1)`
 
@@ -289,6 +320,10 @@ A common follow-up for ex.boom is b.lk which can air-reset the opponent. This
 only works at close range, but allows for some sterling pressure.  It's worth
 noting that ex.boom has, probably, the most esoteric setups as the advantage
 doesn't really suit Guile.
+
+<p class="yt">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mF9hWyhRwqE" frameborder="0" allowfullscreen></iframe>
+</p>
 
 ### KDR / KD
 `b.lk(early reset) {s.hp(8/-2) ; c.hp(3/-2)}` *reset (no KD)*
@@ -328,6 +363,7 @@ Reddit](http://www.reddit.com/r/SFV_GUILE/wiki/index)):
 | EX | 4 |  | 1-9 | 1-6 | 1-9 |
 
 The takeaway is this:
+
 * always use hk.fk in grounded combos
 * always use lk.fk for standard AA (mk or hk for ranged AA, use boom oki)
 
@@ -336,6 +372,7 @@ what to use for later hits is essential. Some practice and a keen eye are
 required.
 
 There are three main types of FK hits:
+
 * 1st active frame
 * 1st airborne frame
 * last possible grounded frame, that is, the latest Guile can hit a standing opponent
@@ -379,6 +416,10 @@ ex.fk has somewhat restrictive okizeme in the mid-screen (which is a fair price
 to pay), but in the corner, it's very generous. Due to 1st frame
 invulnerability, late AA with ex.fk can pay the bills. Ensure any AA with ex.fk
 is done as late as possible.
+
+<p class="yt">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N1igPDlUvak" frameborder="0" allowfullscreen></iframe>
+</p>
 
 ### KDR / KD
 `f.dash b.hp(3/0) | {b.hp b.hp(2/-1) ; b.lk b.hp(4/1) ; s.hk s.mp(4/3)}`

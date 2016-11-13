@@ -64,3 +64,13 @@ ul {
 li {
 	padding: 0px;
 }
+
+a.back {
+	font-size: large;
+	font-weight: bold;
+	color: green;
+}
+a:hover {
+	background-color: yellow;
+	cursor: pointer;
+}

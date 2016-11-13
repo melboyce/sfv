@@ -1,3 +1,5 @@
+<a class="back" href="/">&ltrif; BACK TO LANDING PAGE</a>
+
 # Guile c.hk punish table
 This is a list of all punishes which will work against a max range blocked
 c.hk. Use your judgement for better options based on range, but this serves as

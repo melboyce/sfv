@@ -1,3 +1,5 @@
+<a class="back" href="/">&ltrif; BACK TO LANDING PAGE</a>
+
 # Top Notch Guile Players
 If you're looking to review high level Guile play, you can use this list of
 player names to help. I've included a link to a YouTube search for that player
@@ -5,7 +7,7 @@ as well.
 
 ## Video Du Jour
 <p class="yt">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Bc5tO-0zLE8" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=L_YujNrDLEQ" frameborder="0" allowfullscreen></iframe>
 </p>
 
 
