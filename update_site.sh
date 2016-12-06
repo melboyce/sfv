@@ -7,5 +7,6 @@ pandoc -s -c pandoc.css --self-contained gul_oki.md -o $dst/oki.html
 pandoc -s -c pandoc.css --self-contained gul_punish_chk_maxrange.md -o $dst/chk.html
 pandoc -s -c pandoc.css --self-contained gul_top-players.md -o $dst/top-players.html
 pandoc -s -c pandoc.css --self-contained gul_udk.md -o $dst/udk.html
+pandoc -s -c pandoc.css --self-contained gul_s2_changelog.md -o $dst/s2changelog.html
 
 rsync -vazh --inplace ~/s/syngin.net/* hammer:
