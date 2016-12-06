@@ -1,3 +1,5 @@
+<a class="back" href="/">&ltrif; BACK TO LANDING PAGE</a>
+
 # Guile - Season 2 Changelog
 
 This information is taken from Circa_LPNs analysis which was submitted
