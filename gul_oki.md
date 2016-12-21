@@ -1,5 +1,22 @@
 <a class="back" href="/">&ltrif; BACK TO LANDING PAGE</a>
 
+# TOC
+
+* [Sonic Boom Okizeme](#the-venerable-sonic-boom)
+* [c.hk, 1st hit](#crouching-hk-1st-hit)
+* [c.hk, 2nd hit](#crouching-hk-2nd-hit)
+* [Guile High Kick](#guile-high-kick-df.hk)
+* [Burn Straight](#burn-straight-crush-counter-b.hp)
+* [Swing-out](#swing-out-bullet-revolver)
+* [Judo Throw](#judo-throw-b.throw)
+* [Flying Mare](#flying-mare-throwair)
+* [Flying Buster Drop](#flying-buster-drop-b.throwair)
+* [V-Reversal](#reverse-back-knuckle-v-reversal)
+* [EX Sonic Boom](#ex-sonic-boom-sonic-tempest)
+* [Flash Kick](#flash-kick-light-medium-heavy)
+* [Sonic Hurricane](#sonic-hurricane)
+
+
 # Guile OKI / setplay
 ## Introduction
 This is, hopefully, a comprehensive detailing of Guile's okizeme / setplay
@@ -321,6 +338,12 @@ only works at close range, but allows for some sterling pressure.  It's worth
 noting that ex.boom has, probably, the most esoteric setups as the advantage
 doesn't really suit Guile.
 
+### Distance Impacts
+The further Guile is from his opponent when the EX boom is launched, the more
+frame advantage Guile gains. This adds a variable which must be eye-balled
+and accounted for. At maximum range, expect something like 5 or 6 frames
+extra to work with.
+
 <p class="yt">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mF9hWyhRwqE" frameborder="0" allowfullscreen></iframe>
 </p>
@@ -366,6 +389,7 @@ The takeaway is this:
 
 * always use hk.fk in grounded combos
 * always use lk.fk for standard AA (mk or hk for ranged AA, use boom oki)
+* mk is probably only useful as a grounded punish
 
 Okizeme off 1st active frame is the most desirable situation, but knowledge of
 what to use for later hits is essential. Some practice and a keen eye are
@@ -382,6 +406,9 @@ and late AA lk.fk can, with some practice, become fully stable. Unfortunately,
 hitting with lk.fk's 1st active frame is tricky and ballsy - it may be more
 prudent to use a safer option. 
 
+<p class="yt">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z7z4bPUlsZw" frameborder="0" allowfullscreen></iframe>
+</p>
 
 ### 1st Active Frame, KDR / KD
 `f.dash s.mp(6/5) | {c.mp c.mp s.mp(5/4) ; c.mk s.lk s.mp(6/5)}`
