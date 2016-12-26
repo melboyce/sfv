@@ -80,7 +80,7 @@ of choice.
 |1|3|8|52|
 |2|21|26|70|
 
-Note: 2nd hit creates and extra `18f` of advantage for Guile - this is the
+Note: 2nd hit creates an extra `18f` of advantage for Guile - this is the
 same length as `f.dash`.
 
 Scoring a knock-down with `c.hk` is not unusual and while the fastest
@@ -90,15 +90,16 @@ knock-down off the second hit of crouch HK adds `18f` of extra advantage to
 the equation. Simply dash forward to create a 1st hit situation.
 
 
-### KDR
-
-With advantage down at `+3f`, strong KDR advantage only comes two ways:
-*stand MP* or *stand LK*.
+### KDR Options
 
 | Option | On hit | On counter-hit | On block | Total frames |
 |-------:|:------:|:--------------:|:--------:|:------------:|
 |`s.mp`|6|8|2|21|
 |`s.lk`|4|6|2|15|
+
+The advantage is very low at `+3f`, so no meaty and keep it simple. If you
+aren't looking for full setups, you should be good to apply anything that's
+`6f` or less.
 
 
 #### stand MP
@@ -106,20 +107,17 @@ With advantage down at `+3f`, strong KDR advantage only comes two ways:
 This is always a strong option when close to your opponent. Being at `+2f`
 works well for trapping with throws and Guile has good `4f` tick normals.
 
-Link straight to `c.mp` as if it will hit and if your opp. stays down, the
-`c.mp` will form the first part of the next sequence.
-
-* `s.mp(6/2) | c.mp s.mk s.mp(8/4)`
-* `s.mp(6/2) | c.mp c.mk b.hp(3/0)`
-* `s.mp(6/2) | c.mp c.lk f.hk(8/0)`
+* `s.mp(6/2) | s.mk s.mp(8/4)`
+* `s.mp(6/2) | c.mk b.hp(3/0)`
+* `s.mp(6/2) | c.lk f.hk(8/0)`
 
 
 #### stand LK
 
-Technically safer than `s.mp` as due to shorter total frames, `s.lk` makes
+Technically safer than `s.mp` due to fewer total frames, `s.lk` makes
 for a good tick option. The problem with a fast oki normal like this is that
 branching for *KD* becomes more difficult.
 
-* `s.lk | b.hp s.mp(8/4)`
-* `s.lk | s.hp b.hp(4/1)`
-* `s.lk | c.mp f.hk(8/0)`
+* `s.lk(4/2) | b.hp s.mp(8/4)`
+* `s.lk(4/2) | s.hp b.hp(4/1)`
+* `s.lk(4/2) | c.mp f.hk(8/0)`
