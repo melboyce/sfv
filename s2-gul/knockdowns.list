@@ -1,0 +1,17 @@
+kdr,kdbr,kd,command,name
+2,2,51,b.throw(air),Flying Buster Drop
+3,8,52,c.hk,crouch HK
+5,5,54,f.throw,Dragon Suplex
+14,14,63,b.throw,Judo Throw
+18,23,77,vr,Reverse Back Knuckle
+21,26,70,c.hk(2),crouch HK (2)
+22,27,81,b>f>b>f+p,Sonic Hurricane
+24,29,83,hk.fk,HK Flash Kick
+24,29,83,lk.fk,LK Flash Kick
+24,29,83,mk.fk,MK Flash Kick
+26,31,85,ex.fk,EX Flash Kick
+32,37,91,s.mp>f.hp,Swing Out
+38,43,97,b.hp,Burn Straight
+41,46,100,df.hk,Guile High Kick
+48,53,107,b>f>b>f+p,Sonic Tempest
+48,53,107,ex.boom,EX Sonic Boom
