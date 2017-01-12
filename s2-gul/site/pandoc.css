@@ -50,9 +50,9 @@ th,td {
 	border: 0px none;
 	padding: 1ex;
 }
-td:first-child {
+/* td:first-child {
 	font-weight: bold;
-}
+} */
 tr.header th {
 	border-bottom: 1px solid #777;
 }
@@ -68,12 +68,18 @@ p.yt,p.tv {
 	min-width: 640px;
 }
 
+p.yt iframe {
+    width: 620px;
+    height: 480px;
+}
+
 ul {
 	list-style-position: inside;
 	list-style-type: square;
 }
 li {
 	padding: 0px;
+	margin-bottom: .8ex;
 }
 
 a.back {
@@ -84,4 +90,17 @@ a.back {
 a:hover {
 	background-color: yellow;
 	cursor: pointer;
+}
+
+p.trap-note,p.shen-note {
+    background-color: rgba(200, 250, 200, 0.5);
+    margin: 10px;
+    padding: 5px;
+}
+p.trap-note strong,p.shen-note strong {
+    display: block;
+    margin-bottom: 1ex;
+}
+p.shen-note {
+    background-color: rgba(200, 200, 250, 0.5);
 }

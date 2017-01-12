@@ -4,3 +4,7 @@ b~b,b.dash,25
 b.lk,knee bazooka,28
 f.mk,rolling sobat,29
 s.hk,stand HK,34
+f~f~f~f,f.dash x 2,36
+f~f b.lk,f.dash bazooka knee,46
+f~f f.mk,f.dash roling sobat,47
+f~f s.hk,f.dash stand HK,52
