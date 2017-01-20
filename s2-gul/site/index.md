@@ -3,3 +3,4 @@
 
 * [season 1 site](s1/index.html)
 * [okizeme guide](oki-guide.html)
+* [ice's v-reversal moment](ice.html)

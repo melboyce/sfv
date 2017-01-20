@@ -90,6 +90,11 @@ Where sonic boom is a usable okizeme option, I will make note of it along
 with which *strength* is best.
 
 
+## Knock-down Ranking
+
+
+
+
 ## TOC
 
 * [Flying Buster Drop](#flying-buster-drop)
@@ -102,6 +107,8 @@ with which *strength* is best.
 * [Flying Mare](#flying-mare)
 * [Swing Out](#swing-out)
 * [Burn Straight](#burn-straight-cc)
+* [Guile High Kick](#guile-high-kick)
+* [EX Sonic Boom](#ex-sonic-boom-sonic-tempest)
 
 
 ## Flying Buster Drop
@@ -134,6 +141,15 @@ counter-hits against 3f normals. As the *note* above indicates, landing the
 knock-down off the second hit of crouch HK adds `18f` of extra advantage to
 the equation. Simply dash forward to create a 1st hit situation.
 
+There is one good reason to have strong `KD` options on call - *Crush Counter*
+`c.hk`. This leads to a guaranteed setup - no small thing. I have included a
+`KD` specific section after `KDR` and `KDBR`.
+
+<p class="shen-note">
+<strong>versus 4f characters</strong>
+If range allows, `s.mk` covers both `KDR` and `KDBR` versus `4f` characters.
+</p>
+
 
 ### KDR
 
@@ -157,7 +173,7 @@ While not nearly as strong as `s.mp`, `c.mp` cancels into `boom` and from
 the right distance, Guile can link into `c.hk` for additional insult.
 
 * `c.mp(3/1) | c.lk~c.lk s.mp(8/4)  # chained c.lk - not great`
-* `c.mp(3/1) | c.mk b.hp(4/1)`
+* `c.mp(3/1) | c.mk *b.hp(4/1)`
 * `c.mp(3/1) | s.lk f.hk(8/0)`
 
 <p class="yt">
@@ -177,7 +193,7 @@ This is always a strong option when close to your opponent. Being at `+2f`
 works well for trapping with throws and Guile has good `4f` tick normals.
 
 * `s.mp(6/2) | s.mk s.mp(8/4)`
-* `s.mp(6/2) | c.mk b.hp(3/0)`
+* `s.mp(6/2) | c.mk *b.hp(3/0)`
 * `s.mp(6/2) | c.lk f.hk(8/0)`
 
 <p class="yt">
@@ -198,7 +214,7 @@ for a good tick option. The problem with a fast oki normal like this is that
 branching for *KD* becomes more difficult.
 
 * `s.lk(4/2) | b.hp s.mp(8/4)`
-* `s.lk(4/2) | s.hp b.hp(4/1)`
+* `s.lk(4/2) | s.hp *b.hp(4/1)`
 * `s.lk(4/2) | c.mp f.hk(8/0)`
 
 <p class="yt">
@@ -211,7 +227,7 @@ branching for *KD* becomes more difficult.
 | Option | On hit | On counter-hit | On block | Frame kill | Notes |
 |-------:|:------:|:--------------:|:--------:|:----------:|:------|
 |`s.mk`|5|7|1| | |
-|`b.hp`|3|KD|0| | |
+|`b.hp`|3|CC|0| | |
 
 `+8f` is an annoying number of frames to meaty and be safe on block. These two
 options are really the best of a bad bunch - `b.hp` is obviously a solid move.
@@ -226,12 +242,15 @@ Both `b.lk` and `f.mk` are serviceable at `-2f` on block.
 trap `3f` and `4f` buttons with `4f` normals: `s.lp`, `s.lk`, `c.lp`, `c.lk`
 </p>
 
-There's not much to say here - it's an okay poke, but you should probably
-just use `b.hp`. It does leave you at a deceptive advantage on hit though,
-so you could try for some shenanigans.
+If facing a `4f` character, this is a fantastic option as it covers both
+recovery types. Subtract `2f` from the numbers for `s.mk` below if the
+opponent opts for `KDR` instead.
+
+Versus a `3f` character, this option is useful on hit as it's at a deceptive
+advantage, but damage conversion options may be limited.
 
 * `s.mk(5/1) | s.mp s.mp(8/4)`
-* `s.mk(5/1) | c.mp b.hp(3/0)`
+* `s.mk(5/1) | c.mp *b.hp(3/0)`
 * `s.mk(5/1) | s.lp f.hk(6/-2)`
 
 <p class="yt">
@@ -252,10 +271,31 @@ a straight hit with this normal (CC or block are the most common outcomes),
 prepare for block, be ready for CC.
 
 * `b.hp(3/0) | s.lk s.mp(8/4)`
-* `b.hp(3/0) | s.lp b.hp(4/1)`
+* `b.hp(3/0) | s.lp *b.hp(4/1)`
 
 <p class="yt">
 <iframe src="https://www.youtube.com/embed/FkJoCGEAdq4" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+### KD
+
+*1st hit c.hk CC*
+
+As noted above, `KD` is guaranteed if the opponent is *Crush Countered*. Use
+these setups to apply specific meaty pressure:
+
+| Option | On hit | On counter-hit | On block | Frame kill | Notes |
+|-------:|:------:|:--------------:|:--------:|:----------:|:------|
+|`c.lp`|6|8|4|`f.dash f.mk`|`s.lk` is the same data|
+|`s.mp`|7|9|3|`f,dash b.lk`| |
+|`b.lk`|3|5|1|`b.lk s.lp`| |
+|`b.hp`|4|CC|1|`b.lk s.lk`| |
+|`f.hk`|7|9|-1|`f.dash f.dash`| |
+|`throw`| | | |`c.hk`|p. cute|
+
+<p class="yt">
+<iframe src="https://www.youtube.com/embed/hQRqBhwN4VA" frameborder="0" allowfullscreen></iframe>
 </p>
 
 
@@ -268,16 +308,16 @@ prepare for block, be ready for CC.
 
 Not much to work with, but with a couple of good `6f` normals, Guile can
 apply pressure in the corner off this throw. Outside of the corner, look to
-pressure with `s.hk`, `f.mk`, `f.hp`, and the like.
+pressure with `s.hk`, `f.mk`, `f.hp`, and the like - manually.
 
 
 ### KDR and KDBR
 
 | Option | On hit | On counter-hit | On block | Frame kill | Notes |
 |-------:|:------:|:--------------:|:--------:|:----------:|:------|
-|`s.lk`|6|8|4| | |
-|`c.mp`|3|5|1| | |
-|`b.hp`|2|4|-1| |`2f` gap|
+|`s.lk`|6|8|4| |corner only |
+|`c.mp`|3|5|1| |corner only |
+|`b.hp`|2|CC|-1| |corner only, `2f` gap|
 
 
 #### stand LK
@@ -292,8 +332,12 @@ Perfectly meaty so comes with excellent advantage, but no range to use it,
 unfortunately. On CH, you can link to `c.hk` or `b.hp`.
 
 * `s.lk(6/4) | s.hk s.mp(6/2)`
-* `s.lk(6/4) | b.hp b.hp(4/1)`
+* `s.lk(6/4) | b.hp *b.hp(4/1)  # chef's special`
 * `s.lk(6/4) | c.mk f.hk(7/-1)`
+
+<p class="yt">
+<iframe src="https://www.youtube.com/embed/p9gX2Bd4CDE" frameborder="0" allowfullscreen></iframe>
+</p>
 
 
 #### crouch MP
@@ -306,8 +350,12 @@ trap `3f` and `4f` buttons with `4f` normals: `s.lp`, `s.lk`, `c.lp`, `c.lk`
 The block advantage here is pretty poor, but as it's easily cancellable,
 `c.mp` will usually find a seat at the table.
 
-* `c.mp(3/1) | s.hp s.mp(7/3)`
+* `c.mp(3/1) | c.hp c.mp(4/2)`
 * `c.mp(3/1) | f.dash f.hk(7/-1)`
+
+<p class="yt">
+<iframe src="https://www.youtube.com/embed/x6866pMuEZ4" frameborder="0" allowfullscreen></iframe>
+</p>
 
 
 #### burn straight
@@ -321,7 +369,11 @@ This goes active on the opponents 3rd wake-up frame, so really you're looking
 for a *Crush Counter* with this option.
 
 * `b.hp(2/-1) | f.dash s.mp(7/3)`
-* `b.hp(2/-1) | s.lk b.hp(4/1)`
+* `b.hp(2/-1) | s.lk *b.hp(4/1)  # house speciality`
+
+<p class="yt">
+<iframe src="https://www.youtube.com/embed/P4-faJk2I28" frameborder="0" allowfullscreen></iframe>
+</p>
 
 
 ## Judo Throw
@@ -337,7 +389,8 @@ to the spacing. You can manually time a `c.mp` for good wake-up pressure.
 <p class="shen-note">
 <strong>Shenanigans</strong>
 After a successful `b.throw`, Guile can walk forward slightly and then throw
-again. The timing is tight, but manageable.
+again. The timing is tight, but manageable although it may not work on some
+characters (small hurtboxes when crouching, for example).
 </p>
 
 
@@ -367,6 +420,14 @@ Against `4f` characters, you can follow a blocked `s.hk` with a `6f` medium
 (`s.mp` or `c.mp`) - this allows for manual counter-hit confirmation if they
 try and take a turn with a light button.
 
+* `s.hk(3/-2) | c.mk s.mp(7/3)`
+* `s.hk(3/-2) | c.mp *b.hp(4/1)`
+* `s.hk(3/-2) | s.lp f.hk(7/-1)`
+
+<p class="yt">
+<iframe src="https://www.youtube.com/embed/4hZlhR4tvuo" frameborder="0" allowfullscreen></iframe>
+</p>
+
 
 #### reverse spin kick
 
@@ -376,10 +437,18 @@ No traps.
 </p>
 
 This normal **is not meaty** and connects on the `2nd` wake-up frame (`1f`
-gap), but provides much improved frame advantage over `s.hk`.
+gap), but provides much improved frame advantage on hit over `s.hk`.
 
 This option should be the default choice in this situation (`b.throw`,
 KDR/KDBR).
+
+* `f.hk(6/-2) | c.mp s.mp(8/4)`
+* `f.hk(6/-2) | f.dash *b.hp(4/1)`
+* `f.hk(6/-2) | s.lp f.hk(6/-2)`
+
+<p class="yt">
+<iframe src="https://www.youtube.com/embed/2wSO60-VBEo" frameborder="0" allowfullscreen></iframe>
+</p>
 
 
 ## Reverse Back Knuckle
@@ -417,7 +486,7 @@ destabilize his okizeme.
 |-------:|:------:|:--------------:|:--------:|:----------:|:------|
 |`c.mp`|4|6|2|`f.dash`| |
 |`s.mp`|7|9|3|`f.dash`| |
-|`b.hp`|2|KD|-1|`f.dash`|`1f` gap|
+|`b.hp`|2|CC|-1|`f.dash`|`1f` gap|
 
 
 #### crouch MP
@@ -430,6 +499,14 @@ trap `4f` buttons with `6f` normals: `s.mp`, `c.mp`
 
 There's no good reason to use `c.mp` over `s.mp` as range is not a
 consideration in this situation.
+
+* `f.dash c.mp(4/2) | df.hk s.mp(8/4)`
+* `f.dash c.mp(4/2) | f.hk *b.hp(4/1)`
+* `f.dash c.mp(4/2) | s.hp f.hk(8/0)`
+
+<p class="yt">
+<iframe src="https://www.youtube.com/embed/hV1rbtFUlYE" frameborder="0" allowfullscreen></iframe>
+</p>
 
 
 #### stand MP
@@ -444,6 +521,17 @@ Still a solid go-to and at `+3f` on block, very good for trapping. On hit,
 can be linked to `6f` and `7f` normals. Given `6f` normals CH `3f` responses
 on block, the safest and most reliable option after `f.dash s.mp` is `c.mp`.
 
+*Note: the following setups are the same as the ones used for `c.mp`, but
+provide 1 less frame of advantage versus `KD`*
+
+* `f.dash s.mp(7/3) | df.hk s.mp(7/3)`
+* `f.dash s.mp(7/3) | f.hk *b.hp(3/0)`
+* `f.dash s.mp(7/3) | s.hp f.hk(7/-1)`
+
+<p class="yt">
+<iframe src="https://www.youtube.com/embed/QYWkXMqx1Mo" frameborder="0" allowfullscreen></iframe>
+</p>
+
 
 #### burn straight
 
@@ -454,6 +542,14 @@ No traps.
 
 As always, this will reset the neutral in exchange for a possible *Crush
 Counter*.
+
+* `f.dash b.hp(2/-1) | b.lk s.mp(8/4)`
+* `f.dash b.hp(2/-1) | b.lk *b.hp(2/-1)`
+* `f.dash b.hp(2/-1) | f.dash f.hk(8/0)`
+
+<p class="yt">
+<iframe src="https://www.youtube.com/embed/oIm4px6tBv8" frameborder="0" allowfullscreen></iframe>
+</p>
 
 
 ### KDBR
@@ -471,19 +567,6 @@ No options versus `KDBR` offer good advantage on block and both `c.hp` and
 consideration.
 
 
-#### crouch HP
-
-<p class="trap-note">
-<strong>0 on block</strong>
-No traps.
-</p>
-
-As noted, this normal whiffs against crouching opponents and even when
-perfectly meaty (last frame), it only offers `0f` on block.
-
-*Not recommended*
-
-
 #### bazooka knee
 
 <p class="trap-note">
@@ -495,6 +578,14 @@ For this recovery type, `bazooka knee` is probably the best option. If a little
 more range is desirable after the pressure is applied (in the case of block,
 for example), `rolling sobat` leaves Guile in a slightly better position.
 
+* `f.dash b.lk(3/1) | b.hp s.mp(8/4)`
+* `f.dash b.lk(3/1) | b.lk *b.hp(4/1)`
+* `f.dash b.lk(3/1) | c.mp f.hk(8/0)`
+
+<p class="yt">
+<iframe src="https://www.youtube.com/embed/wfbai5qy-Bk" frameborder="0" allowfullscreen></iframe>
+</p>
+
 
 #### rolling sobat
 
@@ -505,6 +596,30 @@ No traps.
 
 Like `bazooka knee`, `rolling sobat` offers little in terms of reward on hit,
 but can leave Guile at a good range to threaten follow-up responses.
+
+*As `f.mk` is a `29f` move and `b.lk` is a `28f` move, the setups for `b.lk`
+work interchangeably - Guile loses `1f` of advantage in exchange*
+
+* `f.dash f.mk(3/-1) | f.mk s.mp(8/4)`
+* `f.dash f.mk(3/-1) | b.lk *b.hp(3/0)`
+* `f.dash f.mk(3/-1) | c.mp f.hk(7/-1)`
+
+<p class="yt">
+<iframe src="https://www.youtube.com/embed/be7FCSpEUG0" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+#### crouch HP
+
+<p class="trap-note">
+<strong>0 on block</strong>
+No traps.
+</p>
+
+As noted, this normal whiffs against crouching opponents and even when
+perfectly meaty (last frame), it only offers `0f` on block.
+
+*Not recommended*
 
 
 #### spinning back knuckle
@@ -649,7 +764,7 @@ If the opponent opts for `KD` after Guile fires off a `sonic boom`, the
 following strings will provide good wake-up pressure.
 
 * `boom f.dash s.hk s.mp(8/4)`
-* `boom b.lk c.mk b.hp(3/0)`
+* `boom b.lk c.mk *b.hp(3/0)`
 * `boom f.dash s.mk f.hk(8/0)`
 
 <p class="yt">
@@ -678,11 +793,33 @@ Medium is a good choice for `KDBR`.
 |41|46|100|
 
 
+### KDR
+
+| Option | On hit | On counter-hit | On block | Frame kill | Notes |
+|-------:|:------:|:--------------:|:--------:|:----------:|:------|
+|`s.mp`|6|8|2|`f.dash f.dash`| |
+|`b.hp`|4|CC|1|`f.dash c.lk`| |
+|`f.hk`|8|10|0|`s.mk`|range affects stability|
+
+
+### KDBR
+
+| Option | On hit | On counter-hit | On block | Frame kill | Notes |
+|-------:|:------:|:--------------:|:--------:|:----------:|:------|
+|`f.hk`|8|10|0|`f.mk`|range affects stability|
+
+
 ## EX Sonic Boom / Sonic Tempest
 
 Achieving stability with `ex.boom` is somewhat finicky due to the change
 in advantage at range: when executed point-blank, advantage could be up to
 `5 frames` lower than at range.
+
+The first okizeme section below will deal with stable `ex.boom` pressure -
+that is, close-range `ex.boom`. The latter will be at the *standard* range -
+that is, the range at which the following *combo* executes the `ex.boom` at:
+
+* `j.hp s.hp c.mp xx ex.boom`
 
 Considering okizeme for `sonic tempest` is not on my todo list.
 
@@ -698,6 +835,16 @@ Delay slightly and use light boom for both recoveries. A heavy boom can meaty
 `KDBR` if timed well.
 </p>
 
+
+### Close Range EX Boom
+
 | KDR | KDBR | KD |
 |:---:|:----:|:--:|
 |48|53|107|
+
+At close-range, `ex.boom` offers a sequence which covers both `KDR` and
+`KDBR` versus `4f` characters.
+
+
+| Option | On hit | On counter-hit | On block | Frame kill | Notes |
+|-------:|:------:|:--------------:|:--------:|:----------:|:------|
